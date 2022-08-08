@@ -16,10 +16,10 @@ Após a instalação, é necessário criar as pastas no computador.
 ##### su redes 
 
  Após isso, é necessário digitar a senha do usuário.
-----------------------
-| usuário: redes     |
-| senha: admin@Lab92 |
----------------------
+
+***usuário: redes***    
+***senha: admin@Lab92***
+
 Observe que o a estrutura básica de comando para mudar de usuário é:
 
 ##### su nomeDoUsuário
@@ -91,7 +91,7 @@ Observe que o a estrutura básica de comando para mudar de usuário é:
   
  5 - Copiar arquivos de imagens
   
- ## Pelo terminal do cumputador
+ ## Pelo terminal do computador
   
  - Para copiar os arquivos de imagens dê o sequinte comando:
   
