@@ -20,7 +20,7 @@ Após a instalação, é necessário criar as pastas no computador.
 ***usuário: redes***    
 ***senha: admin@Lab92***
 
-Observe que o a estrutura básica de comando para mudar de usuário é:
+- Observe que o a estrutura básica de comando para mudar de usuário é:
 
 ##### su nomeDoUsuário
 
