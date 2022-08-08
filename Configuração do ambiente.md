@@ -58,10 +58,11 @@ Após a instalação, é necessário criar as pastas no computador.
 ##### sudo mkdir suaTurma
 ##### sudo mkdir seuNome
   
-- Ao final teremos uma hierarquia de pastas da seginte forma:
+- Ao final teremos uma hierarquia de pastas da seguinte forma:
   
 **labredes/images/original**
-**labredes/VM/<suaTurma>/<seuNome>**
+
+**labredes/VM/suaTurma/seuNome**
   
  4 - Agora temos que adicionar o usuário aluno ao grupo redes. Isso pode ser realizado pelo comando:
   
