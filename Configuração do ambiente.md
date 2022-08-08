@@ -48,7 +48,7 @@ Após a instalação, é necessário criar as pastas no computador.
 ##### sudo mkdir images
 ##### sudo mkdir VM
 
-- Dentro da pasta images, crie outra pasta 'origina':
+- Dentro da pasta images, crie outra pasta 'original':
 
 ##### sudo mkdir original
 
