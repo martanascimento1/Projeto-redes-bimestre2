@@ -13,7 +13,7 @@ Após a instalação, é necessário criar as pastas no computador.
 
 2 - Logar no usuário redes. Você pode entrar pelo comando:
 
-``su redes´´
+##### su redes
 
  Após isso, é necessário digitar a senha do usuário.
 
@@ -106,7 +106,7 @@ Após a instalação, é necessário criar as pastas no computador.
   
  - Verifique se os arquivos existem nos diretórios:
   
- ´´##### ls -la´´
+ ##### ls -la
   
  ## Pelo  programa Nautilus
   
