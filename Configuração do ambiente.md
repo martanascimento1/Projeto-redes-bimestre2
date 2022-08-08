@@ -10,11 +10,12 @@ Após a instalação, é necessário criar as pastas no computador.
 ## Pelo terminal do computador
 
 1 - Entrar no teminal do linux (você pode acessá-lo pelo menu de configurações e procurar por "terminal").
+
 2 - Logar no usuário redes. Você pode entrar pelo comando:
 
 ##### su redes 
 
-Após isso, é necessário digitar a senha do usuário.
+ Após isso, é necessário digitar a senha do usuário.
 ----------------------
 | usuário: redes     |
 | senha: admin@Lab92 |
@@ -54,8 +55,8 @@ Observe que o a estrutura básica de comando para mudar de usuário é:
 - Agora dentro da pasta VM, crie outras pastas com a sua turma. Depois entre na pasta da sua turma e crie uma pasta com o seu nome.
 - Ex.: 924/MariaIzabel
 
-##### sudo mkdir <suaTurma>
-##### sudo mkdir <seuNome>
+##### sudo mkdir suaTurma
+##### sudo mkdir seuNome
   
 - Ao final teremos uma hierarquia de pastas da seginte forma:
   
