@@ -6,7 +6,7 @@ Tabela 1: Definições de endereços IPs das redes:
 --------------------------------------
 | rede              | 192.168.24.0   |
 | máscara           | 255.255.255.0  |
-| Gateway           | 192.168.24.1   |
+| Gateway           | 192.168.24.14  |
 | VM1-PC1-izabel    | 192.168.24.1   |
 | VM2-PC1-izabel    | 192.168.24.2   |
 | VM1-PC2-marta     | 192.168.24.3   |
