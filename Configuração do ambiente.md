@@ -51,6 +51,8 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### sudo mkdir original
 
+- Dentro da pasta labredes crie a pasta VM
+
 ##### sudo mkdir VM
 
 - Agora dentro da pasta VM, crie outras pastas com a sua turma. Depois entre na pasta da sua turma e crie uma pasta com o seu nome.
