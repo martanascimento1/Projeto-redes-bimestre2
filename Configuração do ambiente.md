@@ -15,6 +15,8 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### su redes
 
+
+
  Após isso, é necessário digitar a senha do usuário.
 
 ***usuário: redes***    
