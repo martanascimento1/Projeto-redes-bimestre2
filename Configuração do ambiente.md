@@ -77,11 +77,11 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### sudo mkdir suaTurma
 
-![WhatsApp Image 2022-08-09 at 13 22 04 (1)](https://user-images.githubusercontent.com/98924290/183906440-1d6c9c3c-cadd-4d26-b645-40fdb5a19119.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 04](https://user-images.githubusercontent.com/98924290/183906673-59a3e64c-f87c-43d5-a844-663ca84a1155.jpeg)
 
 ##### sudo mkdir seuNome
 
-![figura 10: Criando a pasta com o nome do estudante na pasta da turma.](https://user-images.githubusercontent.com/98924290/183901449-114be008-9a47-4d65-b7fa-aebad27a3463.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 04 (1)](https://user-images.githubusercontent.com/98924290/183906704-4fd1ed47-de97-40f3-baaa-faf46d413286.jpeg)
 
 - Ao final teremos uma hierarquia de pastas da seguinte forma:
   
@@ -93,29 +93,29 @@ Após a instalação, é necessário criar as pastas no computador.
   
  #####  sudo usermod -aG redes aluno
  
-  ![figura 11: Adicionando o usuário alunos ao grupo redes.](https://user-images.githubusercontent.com/98924290/183901741-3a13493d-1284-495d-b90e-0ed459e87e04.jpeg)
-  
+  ![WhatsApp Image 2022-08-09 at 13 22 04 (2)](https://user-images.githubusercontent.com/98924290/183906752-ab8facc3-4140-4a3e-a59f-3f0c51648b14.jpeg)
+
  - Após dado o comando acima, realize os outros: 
   
  ##### sudo chown -R nobody:nogroup /labredes
  
- ![figura 12: Modificando o proprietário da pasta labredes.](https://user-images.githubusercontent.com/98924290/183902549-36e546ae-c2de-41af-952d-ebe527ad176d.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 04 (3)](https://user-images.githubusercontent.com/98924290/183906803-c4d11ba7-122c-47c2-8b81-711ac19d3000.jpeg)
 
  - O comando **chwn** modifica o dono da pasta labredes para o usuario nobody e grupo nogroup
   
  ##### ls -la
  
- ![figura 13](https://user-images.githubusercontent.com/98924290/183904132-d0631169-07a5-4d2a-b902-482376c12705.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 05](https://user-images.githubusercontent.com/98924290/183906835-ecb3b2ee-917f-4f25-abeb-5938e6c29a91.jpeg)
 
  ##### sudo chgrp -R redes /labredes
  
-  ![figura 14: Modificando o proprietário do grupo /labredes para o grupo redes.](https://user-images.githubusercontent.com/98924290/183902905-c9548514-5005-4f09-83b6-409a8b236661.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 05 (1)](https://user-images.githubusercontent.com/98924290/183906878-d0d2451e-0d7b-49c1-aeb1-3f41468c9999.jpeg)
 
  - O comando **chgrp** altera o proprietário de grupo do diretório /labredes para o grupo redes
   
  ##### sudo chmod -R 771 /labredes 
  
- ![figura 15: Alterando as permissões do diretório. ](https://user-images.githubusercontent.com/98924290/183903160-8b4715ae-9050-4087-8a6c-aa684f7f996b.jpeg)
+ ![WhatsApp Image 2022-08-09 at 13 22 05 (2)](https://user-images.githubusercontent.com/98924290/183906929-a6bfa1d0-2c5e-40b6-845d-f955964b3d9c.jpeg)
 
  - O comando **chmod** altera as permissões do diretório para escrita pelos membros do grupo
   
@@ -123,10 +123,10 @@ Após a instalação, é necessário criar as pastas no computador.
   
  ##### getent group
  
-![figura 16](https://user-images.githubusercontent.com/98924290/183904448-54744eaa-332e-4156-a230-1990a20e107d.jpeg)
+  ![WhatsApp Image 2022-08-09 at 13 22 05 (3)](https://user-images.githubusercontent.com/98924290/183907018-55da3c9f-7d0a-461e-9a42-63e2707b5e61.jpeg)
  
  - O comando **getent group** lista grupos
-  
+
  5 - Copiar arquivos de imagens
   
  ## Pelo terminal do computador
@@ -137,7 +137,7 @@ Após a instalação, é necessário criar as pastas no computador.
   
  ##### scp aluno@192.168.101.10:~/Public/iso-images/mini.iso /labredes/images/original
  
- ![figura 17: Copiando os arquivos de images](https://user-images.githubusercontent.com/98924290/183905159-1a0d27dc-55a5-4af2-9e69-745ec79ff3a3.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 06 (1)](https://user-images.githubusercontent.com/98924290/183907111-bf8724b6-5c40-4533-9e59-fbff0b737ae9.jpeg)
 
  ##### scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
  ##### scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso /labredes/images/original
