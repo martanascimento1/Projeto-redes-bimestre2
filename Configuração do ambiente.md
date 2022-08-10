@@ -93,13 +93,13 @@ Após a instalação, é necessário criar as pastas no computador.
   
  #####  sudo usermod -aG redes aluno
  
-  ![WhatsApp Image 2022-08-09 at 13 22 04 (2)](https://user-images.githubusercontent.com/98924290/183906752-ab8facc3-4140-4a3e-a59f-3f0c51648b14.jpeg)
+ ![WhatsApp Image 2022-08-09 at 13 22 04 (2)](https://user-images.githubusercontent.com/98924290/183907963-35efb58d-d1e0-41c1-adda-df6969c5c9c0.jpeg)
 
  - Após dado o comando acima, realize os outros: 
   
  ##### sudo chown -R nobody:nogroup /labredes
  
-![WhatsApp Image 2022-08-09 at 13 22 04 (3)](https://user-images.githubusercontent.com/98924290/183906803-c4d11ba7-122c-47c2-8b81-711ac19d3000.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 04 (3)](https://user-images.githubusercontent.com/98924290/183908240-8fd39af9-b23f-43ac-9371-73136faa7d05.jpeg)
 
  - O comando **chwn** modifica o dono da pasta labredes para o usuario nobody e grupo nogroup
   
@@ -109,13 +109,13 @@ Após a instalação, é necessário criar as pastas no computador.
 
  ##### sudo chgrp -R redes /labredes
  
-![WhatsApp Image 2022-08-09 at 13 22 05 (1)](https://user-images.githubusercontent.com/98924290/183906878-d0d2451e-0d7b-49c1-aeb1-3f41468c9999.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 05](https://user-images.githubusercontent.com/98924290/183908419-079ad288-75f5-41f4-b65e-38e20e7ea013.jpeg)
 
  - O comando **chgrp** altera o proprietário de grupo do diretório /labredes para o grupo redes
   
  ##### sudo chmod -R 771 /labredes 
  
- ![WhatsApp Image 2022-08-09 at 13 22 05 (2)](https://user-images.githubusercontent.com/98924290/183906929-a6bfa1d0-2c5e-40b6-845d-f955964b3d9c.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 05 (1)](https://user-images.githubusercontent.com/98924290/183908501-a16df337-3ced-4abc-a2e9-0dcb007f11d8.jpeg)
 
  - O comando **chmod** altera as permissões do diretório para escrita pelos membros do grupo
   
@@ -137,7 +137,7 @@ Após a instalação, é necessário criar as pastas no computador.
   
  ##### scp aluno@192.168.101.10:~/Public/iso-images/mini.iso /labredes/images/original
  
-![WhatsApp Image 2022-08-09 at 13 22 06 (1)](https://user-images.githubusercontent.com/98924290/183907111-bf8724b6-5c40-4533-9e59-fbff0b737ae9.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 06 (1)](https://user-images.githubusercontent.com/98924290/183908820-0f58cb22-2ed6-444d-89c9-4224141e7aee.jpeg)
 
  ##### scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
  ##### scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso /labredes/images/original
