@@ -48,8 +48,6 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### ls -la
 
-![ls -la labredes](https://user-images.githubusercontent.com/98924290/183906211-b94fbe38-4a92-41b9-8925-268a4921fdf2.jpeg)
-
 - O comando ls -la lista os arquivos contidos dentro daquele diretório.
 
 - Dentro da pasta labredes crie a pasta images e a pasta VM
