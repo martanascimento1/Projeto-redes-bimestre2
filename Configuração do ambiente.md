@@ -42,13 +42,13 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### sudo mkdir labredes
 
-![WhatsApp Image 2022-08-09 at 13 22 05 (2)](https://user-images.githubusercontent.com/98924290/183905771-aaf36095-c3aa-4097-89ae-71dbb3315e4c.jpeg)
+![mkdir labredes](https://user-images.githubusercontent.com/98924290/183906175-9db52f98-cb48-46fc-8589-e495ee8fb345.jpeg)
 
 - Para vereficar se a pasta labredes foi criada efetue o seguinte comando no terminal:
 
 ##### ls -la
 
-![Figura 4: listagem dos arquivos do da pasta raiz do computador.](https://user-images.githubusercontent.com/98924290/183899655-96a45b1b-fb98-4e74-b91d-cb934089ef36.jpeg)
+![ls -la labredes](https://user-images.githubusercontent.com/98924290/183906211-b94fbe38-4a92-41b9-8925-268a4921fdf2.jpeg)
 
 - O comando ls -la lista os arquivos contidos dentro daquele diretório.
 
@@ -56,28 +56,28 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### sudo mkdir images
 
-![Figura 5: Entrando na pasta labredes.](https://user-images.githubusercontent.com/98924290/183899847-f2bc5e8b-d153-48b5-9cf9-9331f63e0c80.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 03 (1)](https://user-images.githubusercontent.com/98924290/183906253-797dcd18-e695-4a18-add7-f3ad779bce49.jpeg)
 
-![figura 6: Entrando na pasta images.](https://user-images.githubusercontent.com/98924290/183899970-5409c99d-c388-40d9-9482-d4ee00482e4f.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 03 (2)](https://user-images.githubusercontent.com/98924290/183906258-9a7dbb02-2200-47be-bfec-873c93c759e4.jpeg)
 
 - Dentro da pasta images, crie outra pasta 'original':
 
 ##### sudo mkdir original
 
-![figura 7: Criando  pasta original dentro da pasta images.](https://user-images.githubusercontent.com/98924290/183900176-e9007f31-f857-4672-96d7-145de0265ce5.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 03 (3)](https://user-images.githubusercontent.com/98924290/183906295-07ad6b53-be07-42ba-951c-930e34381571.jpeg)
 
 - Dentro da pasta labredes crie a pasta VM
 
 ##### sudo mkdir VM
 
-![figura 8: Criando a pasta VM ndentro da pasta labredes.](https://user-images.githubusercontent.com/98924290/183900611-798a9bca-f8cc-4525-a63a-47327323d469.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 03 (4)](https://user-images.githubusercontent.com/98924290/183906337-a542f203-030f-4eb6-ae5e-11faa4625e31.jpeg)
 
 - Agora dentro da pasta VM, crie outras pastas com a sua turma. Depois entre na pasta da sua turma e crie uma pasta com o seu nome.
 - Ex.: 924/MariaIzabel
 
 ##### sudo mkdir suaTurma
 
-![figura 9: Criando a pasta da turma dentro da pasta VM](https://user-images.githubusercontent.com/98924290/183900924-8e777abe-4ab2-4248-92c3-245b86537a02.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 04 (1)](https://user-images.githubusercontent.com/98924290/183906440-1d6c9c3c-cadd-4d26-b645-40fdb5a19119.jpeg)
 
 ##### sudo mkdir seuNome
 
