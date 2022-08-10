@@ -105,7 +105,7 @@ Após a instalação, é necessário criar as pastas no computador.
   
  ##### ls -la
  
-![WhatsApp Image 2022-08-09 at 13 22 05](https://user-images.githubusercontent.com/98924290/183906835-ecb3b2ee-917f-4f25-abeb-5938e6c29a91.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 05 (2)](https://user-images.githubusercontent.com/98924290/183909198-71de72eb-5033-450e-864b-bdcac6b80d63.jpeg)
 
  ##### sudo chgrp -R redes /labredes
  
