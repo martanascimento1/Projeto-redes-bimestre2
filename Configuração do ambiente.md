@@ -15,6 +15,7 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### su redes
 
+![Figura 1: Logando no usuário redes pelo comando "su".](https://ibb.co/RYPpJNg)
 
 
  Após isso, é necessário digitar a senha do usuário.
