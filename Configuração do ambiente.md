@@ -42,7 +42,7 @@ Após a instalação, é necessário criar as pastas no computador.
 
 ##### sudo mkdir labredes
 
-![figura 3: Criando a pasta labredes na raiz do computador.](https://user-images.githubusercontent.com/98924290/183899445-ce9bd549-1a34-4ecd-8e67-d11e2210b8eb.jpeg)
+![WhatsApp Image 2022-08-09 at 13 22 05 (2)](https://user-images.githubusercontent.com/98924290/183905771-aaf36095-c3aa-4097-89ae-71dbb3315e4c.jpeg)
 
 - Para vereficar se a pasta labredes foi criada efetue o seguinte comando no terminal:
 
