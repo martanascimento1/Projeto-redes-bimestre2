@@ -87,8 +87,9 @@ sudo mkdir suaTurma
 ```
 ![WhatsApp Image 2022-08-09 at 13 22 04](https://user-images.githubusercontent.com/98924290/183906673-59a3e64c-f87c-43d5-a844-663ca84a1155.jpeg)
 
-##### sudo mkdir seuNome
-
+```shell
+su mkdir seuNome
+```
 ![WhatsApp Image 2022-08-09 at 13 22 04 (1)](https://user-images.githubusercontent.com/98924290/183906704-4fd1ed47-de97-40f3-baaa-faf46d413286.jpeg)
 
 - Ao final teremos uma hierarquia de pastas da seguinte forma:
@@ -98,39 +99,47 @@ sudo mkdir suaTurma
 **labredes/VM/suaTurma/seuNome**
   
  4 - Agora temos que adicionar o usuário aluno ao grupo redes. Isso pode ser realizado pelo comando:
-  
- #####  sudo usermod -aG redes aluno
  
+ ```shell
+sudo usermod -aG redes aluno
+```
  ![WhatsApp Image 2022-08-09 at 13 22 04 (2)](https://user-images.githubusercontent.com/98924290/183907963-35efb58d-d1e0-41c1-adda-df6969c5c9c0.jpeg)
 
  - Após dado o comando acima, realize os outros: 
-  
- ##### sudo chown -R nobody:nogroup /labredes
  
+ ```shell
+sudo chwn -R nobody:nogroup /labredes
+``
 ![WhatsApp Image 2022-08-09 at 13 22 04 (3)](https://user-images.githubusercontent.com/98924290/183908240-8fd39af9-b23f-43ac-9371-73136faa7d05.jpeg)
 
  - O comando **chwn** modifica o dono da pasta labredes para o usuario nobody e grupo nogroup
-  
- ##### ls -la
  
+ ```shell
+ls -la
+```
 ![WhatsApp Image 2022-08-09 at 13 22 05 (2)](https://user-images.githubusercontent.com/98924290/183909198-71de72eb-5033-450e-864b-bdcac6b80d63.jpeg)
 
- ##### sudo chgrp -R redes /labredes
+```shell
+sudo chgrp -R redes /labredes
+```
  
 ![WhatsApp Image 2022-08-09 at 13 22 05](https://user-images.githubusercontent.com/98924290/183908419-079ad288-75f5-41f4-b65e-38e20e7ea013.jpeg)
 
  - O comando **chgrp** altera o proprietário de grupo do diretório /labredes para o grupo redes
-  
- ##### sudo chmod -R 771 /labredes 
  
+ ```shell
+sudo chmod -R 771 /labredes
+```
 ![WhatsApp Image 2022-08-09 at 13 22 05 (1)](https://user-images.githubusercontent.com/98924290/183908501-a16df337-3ced-4abc-a2e9-0dcb007f11d8.jpeg)
 
  - O comando **chmod** altera as permissões do diretório para escrita pelos membros do grupo
-  
- ##### ls -la
-  
- ##### getent group
- 
+
+```shell
+ls -la
+```
+```shell
+getent group
+```
   ![WhatsApp Image 2022-08-09 at 13 22 05 (3)](https://user-images.githubusercontent.com/98924290/183907018-55da3c9f-7d0a-461e-9a42-63e2707b5e61.jpeg)
  
  - O comando **getent group** lista grupos
@@ -142,20 +151,26 @@ sudo mkdir suaTurma
  - Para copiar os arquivos de imagens dê o sequinte comando:
   
  OBS: é necessário que a máquina de origem dos arquivos esteja ligada para isso.
-  
- ##### scp aluno@192.168.101.10:~/Public/iso-images/mini.iso /labredes/images/original
+ 
+ ```shell
+su nomeDoUsuário
+```
  
 ![WhatsApp Image 2022-08-09 at 13 22 06 (1)](https://user-images.githubusercontent.com/98924290/183908820-0f58cb22-2ed6-444d-89c9-4224141e7aee.jpeg)
 
- ##### scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
- ##### scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso /labredes/images/original
- 
+ ```shell
+scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
+```
+ ```shell
+scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso /labredes/images/original
+```
  - O comando **scp** faz uma cópia de um arquivo em um computador remoto para um diretório em um computador local
   
  - Verifique se os arquivos existem nos diretórios:
-  
- ##### ls -la
-  
+ 
+ ```shell
+ls -la
+```
  ## Pelo  programa Nautilus
   
   smb://192.168.101.10/iso-images
