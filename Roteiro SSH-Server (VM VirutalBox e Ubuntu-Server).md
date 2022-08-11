@@ -91,7 +91,7 @@ sudo apt-get install openssh-server
 ```shell
 systemctl status ssh
 ```
-![WhatsApp Image 2022-08-09 at 17 59 25](https://user-images.githubusercontent.com/103062784/184231778-568d2a30-e830-45df-9ef5-d79111544708.jpeg)
+![WhatsApp Image 2022-08-09 at 17 59 25 (1)](https://user-images.githubusercontent.com/103062784/184234321-5a2f81d0-4a82-4749-bc08-c97b6de1befd.jpeg)
 
 
 ### Verifique o status das portas do sistema
@@ -99,7 +99,7 @@ systemctl status ssh
 netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está como LINSTENING
 ```
 
-![WhatsApp Image 2022-08-09 at 17 59 25](https://user-images.githubusercontent.com/103062784/184232536-fa80802d-f5f3-4bdc-ad1e-0109084e6638.jpeg)
+![WhatsApp Image 2022-08-09 at 17 59 26](https://user-images.githubusercontent.com/103062784/184234379-f14be003-1f5f-4035-a94a-62d762fd1046.jpeg)
 
 
 ### Firewall 
