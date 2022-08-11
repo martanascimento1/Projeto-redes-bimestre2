@@ -131,7 +131,16 @@ sudo ufw enable
 
 
 ### Refazendo a topologia de rede da Prática
-* Retorne as configurações de interface de rede para o modo bridge em cada VM no VirtualBox e ative o endereçamento IP estático conforme a Tabela 1.
+* Retorne as configurações de interface de rede para o modo bridge em cada VM no VirtualBox:
+![WhatsApp Image 2022-08-11 at 17 22 37](https://user-images.githubusercontent.com/103062784/184235445-1e172bac-74d3-4f1e-97d6-c45393859610.jpeg)
+
+
+* Ative o endereçamento IP estático conforme a Tabela 1.
+*```shell
+  sudo nano /etc/netplan/01-netcfg.yaml
+  ```
+  
+![WhatsApp Image 2022-08-11 at 17 31 34](https://user-images.githubusercontent.com/103062784/184238748-52c18fd1-3991-4ad2-be89-71995015bd81.jpeg)
 
 ### Acessando uma VM remotamente:
 
