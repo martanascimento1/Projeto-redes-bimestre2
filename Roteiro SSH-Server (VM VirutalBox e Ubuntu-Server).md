@@ -46,7 +46,8 @@ sudo hostnamectl set-hostname srv-vm1-pc1
 
 ### Antes de Começar:
    1. acessar as configurações de cada VM e altere novamente o Adaptador1 para **NAT**
-   ![Uploading WhatsApp Image 2022-08-09 at 16.27.05 (1).jpeg…]()
+   
+![WhatsApp Image 2022-08-09 at 16 27 05 (2)](https://user-images.githubusercontent.com/103062784/184227599-655311a3-af26-4c62-87e5-15f68e266531.jpeg)
 
    3. Comente as linhas de endereço IP estático e ative o DHCP nas configurações do Netplan
    
