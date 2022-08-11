@@ -50,6 +50,12 @@ sudo hostnamectl set-hostname srv-vm1-pc1
 ![WhatsApp Image 2022-08-09 at 16 27 05 (2)](https://user-images.githubusercontent.com/103062784/184227599-655311a3-af26-4c62-87e5-15f68e266531.jpeg)
 
    3. Comente as linhas de endereço IP estático e ative o DHCP nas configurações do Netplan
+  ```shell
+  sudo nano /etc/netplan/01-netcfg.yaml
+  ```
+  
+  ![WhatsApp Image 2022-08-09 at 16 27 06](https://user-images.githubusercontent.com/103062784/184228132-af7598c3-6cb5-4912-b5f4-beb61af9e791.jpeg)
+
    
 ### Ceritifique-se que a VM está acessando a internet:
 
