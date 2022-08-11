@@ -147,10 +147,8 @@ $ ifconfig -a
 * A Figura 4 Ilustra as configurações para a importação das VMs: VM-LAB01 e VM-LAB02
 
 <p><center> Figura 4: Configuração das NICs como modo ``rede interna``</center></p>   
-   <img src="figuresPTP/VM-LAB01-Network.png" alt=""
-	title="Figura 4a: VM-LAB01-Network" width="800" height="auto"/> <br/>
-   <img src="figuresPTP/VM-LAB02-Network" alt=""
-	title="Figura 4b: VM-LAB02-Network" width="800" height="auto"/>
+   
+![WhatsApp Image 2022-08-11 at 16 44 30](https://user-images.githubusercontent.com/103062733/184226195-b11c91fe-b720-408c-ade4-cfdfb8891d36.jpeg)
 
 ### Teste a conectividade entre as VMs com o comando ``ping``
 
