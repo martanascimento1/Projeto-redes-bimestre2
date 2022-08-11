@@ -36,6 +36,9 @@ su redes
 sudo apt install virtualbox-ext-pack
 ```
 
+
+![Captura de tela de 2022-08-10 16-38-11](https://user-images.githubusercontent.com/103062733/184193107-277d4776-5b4e-4733-bae8-757c53fb0360.png)
+
 ## Criando uma Rede Ponto a Ponto com Duas Máquinas Virtuais
 
 * Iremos criar uma rede ponto a ponto com duas VMs dentro do VirtualBox.
