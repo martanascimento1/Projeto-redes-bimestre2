@@ -71,13 +71,28 @@ sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões
 
 ![WhatsApp Image 2022-08-09 at 16 37 18](https://user-images.githubusercontent.com/103062784/184229438-99c8d006-a4ac-4109-a725-153e2724a63a.jpeg)
 
+
+![WhatsApp Image 2022-08-09 at 16 40 03](https://user-images.githubusercontent.com/103062784/184230024-ba20e666-0571-40ae-89a7-4659e5db0465.jpeg)
+
 ### Instale o SSH Server
 
 ```shell
 systemctl status ssh
+```
+![WhatsApp Image 2022-08-09 at 17 59 18](https://user-images.githubusercontent.com/103062784/184231049-750b3141-a30b-499c-bfbf-6b5fa95bf317.jpeg)
+
+
+``` shell
 sudo apt-get install openssh-server
+```
+
+![WhatsApp Image 2022-08-09 at 17 59 19](https://user-images.githubusercontent.com/103062784/184231225-f585a94b-4ccd-4596-87d9-67a9e1b7a202.jpeg)
+
+```shell
 systemctl status ssh
 ```
+![WhatsApp Image 2022-08-09 at 17 59 25](https://user-images.githubusercontent.com/103062784/184231778-568d2a30-e830-45df-9ef5-d79111544708.jpeg)
+
 
 ### Verifique o status das portas do sistema
 ```
