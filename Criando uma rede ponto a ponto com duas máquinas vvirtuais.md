@@ -55,6 +55,7 @@ sudo apt install virtualbox-ext-pack
 * A Figura 2 Ilustra as configurações para a importação das VMs: VM-LAB01 e VM-LAB02
 
 ![WhatsApp Image 2022-08-10 at 14 25 40](https://user-images.githubusercontent.com/103062733/184224800-9b10b210-cf25-4103-972b-63c53931d3b6.jpeg)
+
 ![WhatsApp Image 2022-08-10 at 14 25 41 (1)](https://user-images.githubusercontent.com/103062733/184225114-6917167b-6e50-4934-87f6-9386d87c1c6b.jpeg)
 
 ### Configurando as NICs das VMs
