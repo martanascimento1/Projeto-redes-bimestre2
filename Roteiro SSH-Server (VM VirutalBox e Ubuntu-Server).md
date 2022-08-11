@@ -143,7 +143,6 @@ ssh administrador@172.17.1.2
 ```
 
 
-
 # Exercício:
 
 1) Acessar a partir da VM1-PC1 todas as outras via ssh:
