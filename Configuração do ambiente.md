@@ -175,7 +175,9 @@ ls -la
  ## Pelo  programa Nautilus
   
   smb://192.168.101.10/iso-images
+  
 ***usuário: aluno 
+
 senha: aluno***
 
 * copiar os arquivos da pasta public para a pasta  /labredes/images/original
