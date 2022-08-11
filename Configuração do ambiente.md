@@ -61,8 +61,6 @@ ls -la
 ```shell
 sudo mkdir images
 ```
-![WhatsApp Image 2022-08-09 at 13 22 03 (1)](https://user-images.githubusercontent.com/98924290/183906253-797dcd18-e695-4a18-add7-f3ad779bce49.jpeg)
-
 ![WhatsApp Image 2022-08-09 at 13 22 03 (2)](https://user-images.githubusercontent.com/98924290/183906258-9a7dbb02-2200-47be-bfec-873c93c759e4.jpeg)
 
 - Dentro da pasta images, crie outra pasta 'original':
