@@ -136,7 +136,7 @@ sudo ufw enable
 
 
 * Ative o endereçamento IP estático conforme a Tabela 1.
-*```shell
+```shell
   sudo nano /etc/netplan/01-netcfg.yaml
   ```
   
