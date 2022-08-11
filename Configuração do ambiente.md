@@ -107,7 +107,7 @@ sudo usermod -aG redes aluno
  
  ```shell
 sudo chwn -R nobody:nogroup /labredes
-``
+```
 ![WhatsApp Image 2022-08-09 at 13 22 04 (3)](https://user-images.githubusercontent.com/98924290/183908240-8fd39af9-b23f-43ac-9371-73136faa7d05.jpeg)
 
  - O comando **chwn** modifica o dono da pasta labredes para o usuario nobody e grupo nogroup
@@ -156,6 +156,9 @@ su nomeDoUsuário
  
 ![WhatsApp Image 2022-08-09 at 13 22 06 (1)](https://user-images.githubusercontent.com/98924290/183908820-0f58cb22-2ed6-444d-89c9-4224141e7aee.jpeg)
 
+ ```shell
+scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
+```
  ```shell
 scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
 ```
