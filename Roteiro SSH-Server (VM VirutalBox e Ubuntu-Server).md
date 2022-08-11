@@ -99,19 +99,34 @@ systemctl status ssh
 netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está como LINSTENING
 ```
 
+![WhatsApp Image 2022-08-09 at 17 59 25](https://user-images.githubusercontent.com/103062784/184232536-fa80802d-f5f3-4bdc-ad1e-0109084e6638.jpeg)
+
+
 ### Firewall 
 * Para garantir o funcioamento correto do controle de acesso devemos configurar o firewall para permitir conexões remota via protocolo SSH, na porta 22.
  
 ```shell
 sudo ufw status
+```
+![WhatsApp Image 2022-08-09 at 17 59 27](https://user-images.githubusercontent.com/103062784/184233376-baf13abf-44ae-400e-976c-eea5182f49b4.jpeg)
+
+
+```shell
 sudo ufw allow ssh.    # ativa o ssh no firewall UFW do ubuntu.
+```
+![WhatsApp Image 2022-08-09 at 17 59 27 (1)](https://user-images.githubusercontent.com/103062784/184233489-461048d0-50a7-439f-91ff-05fb881d7da1.jpeg)
+
+```shell
 sudo ufw status
 ```
-    
+![WhatsApp Image 2022-08-09 at 17 59 28](https://user-images.githubusercontent.com/103062784/184233663-219d022e-1499-4f97-ae3b-49e3223a220f.jpeg)
+
 * Para ativar o firewall:
 ```shell 
 sudo ufw enable
 ```
+![WhatsApp Image 2022-08-11 at 14 58 37](https://user-images.githubusercontent.com/103062784/184233768-f678988c-80f6-4e18-ba64-8418206d535b.jpeg)
+
 
 ### Refazendo a topologia de rede da Prática
 * Retorne as configurações de interface de rede para o modo bridge em cada VM no VirtualBox e ative o endereçamento IP estático conforme a Tabela 1.
