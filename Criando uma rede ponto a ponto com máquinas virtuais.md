@@ -1,34 +1,18 @@
 
+# Configuração de uma rede ponto a ponto com máquinas virtuais
+
 * Abrir terminal
 * logar com o usuário ``redes`` senha: admin@Lab92
 ```bash
  su redes
 ```
 
-* Verifique se os diretórios abaixo existem. Se não, acesse o tutorial [Configuração do ambiente](https://github.com/alaelson/2022-924-notasdeaula/blob/main/Aula.924.2022.06.10.md).
+* Verifique se os diretórios abaixo existem e se os arquivos de imagens também. Se não, acesse o tutorial [Configuração do ambiente]([https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/95c398380f36e4ffdb142c7c6a5f60bf2d08fe10/Configura%C3%A7%C3%A3o%20do%20ambiente.md]).
 
 ```
 /labredes/images/original
 /labredes/VM/924/<NomeDoAluno>
 ```
-
-
-### Pelo Terminal 
-
-```shell
-# scp faz uma cópia de um arquivo em um computador remoto para um diretório em um computador local
-# sintaxe: <user>@<server>:<path>/<file>
-# user: aluno
-# senha: aluno
-# server: 192.168.101.10
-# diretório do server: /Users/alaelson/Public
-# diretório de destino: /labredes/images/original
-
-cd /labredes/images/original
-ls -la #verifique no resultado a existência dos arquivos .iso
-
-# Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
-scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-server-mini.ova /labredes/images/original
 
 ```
 * Instale o Virtualbox Extension Pack
@@ -52,13 +36,14 @@ sudo apt install virtualbox-ext-pack
 * O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
 * Vamos importar este arquivo para criar as duas VMs que precisamos para fazer esta tarefa de rede ponto a ponto.
 
-* A Figura 2 Ilustra as configurações para a importação das VMs: VM-LAB01 e VM-LAB02
+* A Figura 2 Ilustra as configurações para a importação das VMs: VM1-PC3-debora e VM2-PC3-nycolli
 
 ![WhatsApp Image 2022-08-10 at 14 25 40](https://user-images.githubusercontent.com/103062733/184224800-9b10b210-cf25-4103-972b-63c53931d3b6.jpeg)
 
 ![WhatsApp Image 2022-08-10 at 14 25 41 (1)](https://user-images.githubusercontent.com/103062733/184225114-6917167b-6e50-4934-87f6-9386d87c1c6b.jpeg)
 
 ### Configurando as NICs das VMs
+
 * Para que a VMs utilizem a mesma rede interna é necessário acessar as configurações de Rede de cada VM e selecionar o modo ``rede interna`` e definir o nome da rede, vamos escolher ``labredes`` como nome da nossa rede virtual. Utilize o mesmo nome nas duas VMs.
 
 
@@ -71,12 +56,12 @@ sudo apt install virtualbox-ext-pack
    <img src="figuresPTP/dualVM.png" alt=""
 	title="Figura 3: VMs em execução" width="1024" height="auto"/> <br/>
 
-
 ## Configuração estática de endereço IP na interface de rede 
 
 * O Ubuntu utiliza um arquivo YAML para configurar as interfaces de rede
 * este arquivo se contra na pasta ``/etc/netplan/``
 * digite: 
+
 ```shell
 ifconfig -a
 ls -la /etc/netplan
