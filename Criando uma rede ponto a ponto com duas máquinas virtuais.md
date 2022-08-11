@@ -5,7 +5,7 @@
  su redes
 ```
 
-* Verifique se os diretórios abaixo existem. Se não, vide a [Aula de 10 de junho de 2022](https://github.com/alaelson/2022-924-notasdeaula/blob/main/Aula.924.2022.06.10.md).
+* Verifique se os diretórios abaixo existem. Se não, acesse o tutorial [Configuração do ambiente](https://github.com/alaelson/2022-924-notasdeaula/blob/main/Aula.924.2022.06.10.md).
 
 ```
 /labredes/images/original
