@@ -25,57 +25,66 @@ su redes
 
 - Observe que o a estrutura básica de comando para mudar de usuário é:
 
-##### su nomeDoUsuário
-
+```shell
+su nomeDoUsuário
+```
 3 - Agora deve-se acessar a pasta raiz do computador e nela criar as pastas que vão ser utilizadas para armazenamento das VMs e para guardar a imagem.
 
 - Entre na pasta raiz do computador pelo comando:
 
-##### cd /
-
+```shell
+cd /
+```
 ![figura 2: Entrando na pasta raiz do computador.](https://user-images.githubusercontent.com/98924290/183899295-8c50c53c-b3ba-4d87-8904-13fdd01b6715.png)
 
 - Observe que o comando básico para entrar em um diretório é:
 
-##### cd nomeDoDiretório
-
+```shell
+cd nomeDoDiretório
+```
 - Crie a pasta labredes na raiz pelo comando:
 
-##### sudo mkdir labredes
-
+```shell
+sudo mkdir labredes
+```
 ![mkdir labredes](https://user-images.githubusercontent.com/98924290/183906175-9db52f98-cb48-46fc-8589-e495ee8fb345.jpeg)
 
 - Para vereficar se a pasta labredes foi criada efetue o seguinte comando no terminal:
 
-##### ls -la
-
+```shell
+ls -la
+```
 - O comando ls -la lista os arquivos contidos dentro daquele diretório.
 
 - Dentro da pasta labredes crie a pasta images e a pasta VM
 
-##### sudo mkdir images
-
+```shell
+sudo mkdir images
+```
 ![WhatsApp Image 2022-08-09 at 13 22 03 (1)](https://user-images.githubusercontent.com/98924290/183906253-797dcd18-e695-4a18-add7-f3ad779bce49.jpeg)
 
 ![WhatsApp Image 2022-08-09 at 13 22 03 (2)](https://user-images.githubusercontent.com/98924290/183906258-9a7dbb02-2200-47be-bfec-873c93c759e4.jpeg)
 
 - Dentro da pasta images, crie outra pasta 'original':
 
-##### sudo mkdir original
-
+```shell
+sudo mkdir original
+```
 ![WhatsApp Image 2022-08-09 at 13 22 03 (3)](https://user-images.githubusercontent.com/98924290/183906295-07ad6b53-be07-42ba-951c-930e34381571.jpeg)
 
 - Dentro da pasta labredes crie a pasta VM
 
-##### sudo mkdir VM
-
+```shell
+sudo mkdir VM
+```
 ![WhatsApp Image 2022-08-09 at 13 22 03 (4)](https://user-images.githubusercontent.com/98924290/183906337-a542f203-030f-4eb6-ae5e-11faa4625e31.jpeg)
 
 - Agora dentro da pasta VM, crie outras pastas com a sua turma. Depois entre na pasta da sua turma e crie uma pasta com o seu nome.
 - Ex.: 924/MariaIzabel
 
-##### sudo mkdir suaTurma
-
+```shell
+sudo mkdir suaTurma
+```
 ![WhatsApp Image 2022-08-09 at 13 22 04](https://user-images.githubusercontent.com/98924290/183906673-59a3e64c-f87c-43d5-a844-663ca84a1155.jpeg)
 
 ##### sudo mkdir seuNome
