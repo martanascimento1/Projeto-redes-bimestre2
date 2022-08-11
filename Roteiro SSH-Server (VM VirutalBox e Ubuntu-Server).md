@@ -144,7 +144,7 @@ sudo ufw enable
 
 ### Acessando uma VM remotamente:
 
-* Exemplo: $ ssh ``<user>``@``<ipServidorRemoto>``
+* Exemplo: $ ssh ``<administrador>``@``<192.168.24.4>``
 * Fazendo o login 
    * de: srv-vm1-pc1    
    * para: srv-vm2-pc1
