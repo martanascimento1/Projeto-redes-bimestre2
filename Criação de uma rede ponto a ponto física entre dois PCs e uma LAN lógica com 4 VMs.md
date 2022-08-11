@@ -43,9 +43,9 @@ cat /etc/netplan/01-network-manager-all.yaml
 * A Figura 2 ilustra a topologia de Rede dentro do VitualBox
 
 <p><center> Figura 2: Topologia de Rede Ponto a Ponto usando o VitualBox, com duas VMs com suas NICs em modo Rede Interna</center></p>   
-   <img src="figuresBridgeNetwork/BridgeNetwork.png" alt=""
-	title="Figura 2: Topologia de Rede" width="500" height="auto" />
 
+
+![WhatsApp Image 2022-08-11 at 17 31 17](https://user-images.githubusercontent.com/103062733/184236983-3dd0a304-4a26-401a-96ee-dce128f88882.jpeg)
 
 ### Fazendo login nas VMs
 
