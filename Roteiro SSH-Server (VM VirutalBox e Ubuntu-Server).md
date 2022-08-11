@@ -146,11 +146,14 @@ sudo ufw enable
 
 * Exemplo: $ ssh ``<user>``@``<ipServidorRemoto>``
 * Fazendo o login 
-   * de: srv-vm1-pc1  
+   * de: srv-vm1-pc1    
    * para: srv-vm2-pc1
+   
+   ![WhatsApp Image 2022-08-09 at 17 59 29](https://user-images.githubusercontent.com/103062784/184239317-eab51b35-c558-4a92-a8de-4a6109e033af.jpeg)
+
 
 ```shell
-ssh administrador@172.17.1.2
+ssh administrador@192.168.24.4
 ```
 
 
@@ -158,5 +161,13 @@ ssh administrador@172.17.1.2
 
 1) Acessar a partir da VM1-PC1 todas as outras via ssh:
 2) Crie dois usuários (use o comando ``sudo adduser``) em cada servidor com o nome dos alunos da dupla.
-3) Faça o login via ssh nos servidores usando cada usuário criado.
+
+![WhatsApp Image 2022-08-09 at 17 59 31 (1)](https://user-images.githubusercontent.com/103062784/184239940-20056125-d319-4f04-a0e9-137eecaa4ad0.jpeg)
+
+
+
+4) Faça o login via ssh nos servidores usando cada usuário criado.
+
+
+![WhatsApp Image 2022-08-09 at 17 59 31](https://user-images.githubusercontent.com/103062784/184239878-50283f8d-3469-41bd-bd31-33ad5533aadc.jpeg)
 
