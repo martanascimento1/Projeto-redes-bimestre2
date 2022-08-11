@@ -101,6 +101,8 @@ netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está com
 
 ![WhatsApp Image 2022-08-09 at 17 59 26](https://user-images.githubusercontent.com/103062784/184234379-f14be003-1f5f-4035-a94a-62d762fd1046.jpeg)
 
+![WhatsApp Image 2022-08-09 at 17 59 27 (2)](https://user-images.githubusercontent.com/103062784/184234550-f1c3a047-c69b-4f71-b692-da15e9fca324.jpeg)
+
 
 ### Firewall 
 * Para garantir o funcioamento correto do controle de acesso devemos configurar o firewall para permitir conexões remota via protocolo SSH, na porta 22.
