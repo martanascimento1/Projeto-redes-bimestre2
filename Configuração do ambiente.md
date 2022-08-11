@@ -13,8 +13,9 @@ Após a instalação, é necessário criar as pastas no computador.
 
 2 - Logar no usuário redes. Você pode entrar pelo comando:
 
-##### su redes
-
+```shell
+su redes
+```
 ![Figura 1: Logando no usuário redes com o comando "su".](https://user-images.githubusercontent.com/98924290/183898793-dc7d84a8-7a30-43d2-ba81-4942b2347bcf.jpeg)
 
  Após isso, é necessário digitar a senha do usuário.
