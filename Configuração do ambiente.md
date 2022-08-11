@@ -166,6 +166,17 @@ scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /l
 scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso /labredes/images/original
 ```
  - O comando **scp** faz uma cópia de um arquivo em um computador remoto para um diretório em um computador local
+
+- sintaxe: <user>@<server>:<path>/<file>
+- server: 192.168.101.10
+- diretório do server: /Users/alaelson/Public
+- diretório de destino: /labredes/images/original
+
+cd /labredes/images/original
+ls -la #verifique no resultado a existência dos arquivos .iso
+
+# Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
+scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-server-mini.ova /labredes/images/original
   
  - Verifique se os arquivos existem nos diretórios:
  
