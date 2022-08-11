@@ -61,8 +61,15 @@ sudo hostnamectl set-hostname srv-vm1-pc1
 
 ```shell
 sudo apt update       # atualiza as definições e versões de pacotes/bibliotecas dos repositórios do ubuntu
+```
+
+![WhatsApp Image 2022-08-09 at 16 27 08](https://user-images.githubusercontent.com/103062784/184228903-ba58cd57-6ce8-4181-9413-5636a9904f43.jpeg)
+
+```shell
 sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões 
 ```
+
+![WhatsApp Image 2022-08-09 at 16 37 18](https://user-images.githubusercontent.com/103062784/184229438-99c8d006-a4ac-4109-a725-153e2724a63a.jpeg)
 
 ### Instale o SSH Server
 
