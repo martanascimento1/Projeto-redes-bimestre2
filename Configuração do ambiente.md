@@ -167,7 +167,7 @@ scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso 
 ```
  - O comando **scp** faz uma cópia de um arquivo em um computador remoto para um diretório em um computador local
 
-- sintaxe: <user>@<server>:<path>/<file>
+- sintaxe: user@server:path/file
 - server: 192.168.101.10
 - diretório do server: /Users/alaelson/Public
 - diretório de destino: /labredes/images/original
