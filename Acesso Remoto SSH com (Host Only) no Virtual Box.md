@@ -52,7 +52,7 @@ ifconfig -a       # verifique a existência da interface ``enp0s8``
 ![WhatsApp Image 2022-08-10 at 13 58 46](https://user-images.githubusercontent.com/103062784/184417043-0252d852-4c45-46a8-830f-a4101b6557cb.jpeg)
 
 
-* Configure as interfaces no netplan e ative o DHCO para o Adaptador 2 (enp0s8)
+* Configure as interfaces no netplan e ative o DHCP para o Adaptador 2 (enp0s8)
 
 ```shell
 sudo nano /etc/netplan/01-netcfg.yaml
