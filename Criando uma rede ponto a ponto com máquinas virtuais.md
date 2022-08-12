@@ -23,8 +23,8 @@
 
 ## Criando uma Rede Ponto a Ponto com Duas Máquinas Virtuais
 
-* Iremos criar uma rede ponto a ponto com duas VMs dentro do VirtualBox.
-* Para isso tanto as VMs devem ser configuradas como as interfaces de rede dessas VMs.
+* Faremos a criação de uma rede ponto a ponto com duas VMs dentro do VirtualBox.
+* Para que isso ocorra tanto as VMs devem ser configuradas como as interfaces de rede dessas VMs.
 * A Figura 1 ilustra a topologia de Rede dentro do VitualBox
 
 <p><center> Figura 1: Topologia de Rede Ponto a Ponto usando o VitualBox, com duas VMs com suas NICs em modo Rede Interna</center></p>   
@@ -34,10 +34,10 @@
 ### Importar VMs no VirtualBox
 
 * O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
-* Vamos importar este arquivo para criar as duas VMs que precisamos para fazer esta tarefa de rede ponto a ponto.
+* Este arquivo deve ser importado para criar as duas VMs que precisamos para fazer esta tarefa de rede ponto a ponto.
 
 * A Figura 2 Ilustra as configurações para a importação das VMs: VM1-PC3-debora e VM2-PC3-nycolli
-
+<p><center>Figura 2: Criando uma VM a partir de um arquivo OVA
 ![184224800-9b10b210-cf25-4103-972b-63c53931d3b6](https://user-images.githubusercontent.com/103062733/184265457-9db87a39-4c37-44e4-8360-29a05729490c.jpeg)
 
 
@@ -45,7 +45,7 @@
 
 ### Configurando as NICs das VMs
 
-* Para que a VMs utilizem a mesma rede interna é necessário acessar as configurações de Rede de cada VM e selecionar o modo ``rede interna`` e definir o nome da rede, vamos escolher ``labredes`` como nome da nossa rede virtual. Utilize o mesmo nome nas duas VMs.
+* Para que a VMs utilizem a mesma rede interna é necessário acessar as configurações de Rede de cada VM e selecionar o modo ``rede interna`` e definir o nome da rede. ``labredes`` será o nome escolhido da nossa rede virtual. Utilize o mesmo nome nas duas VMs.
 
 
 ### Fazendo login nas VMs
@@ -54,8 +54,7 @@
 * Senha da VM: ``adminifal``
 
 <p><center> Figura 3: Telas das duas VMs em execução</center></p>   
-   <img src="figuresPTP/dualVM.png" alt=""
-	title="Figura 3: VMs em execução" width="1024" height="auto"/> <br/>
+   
 
 ## Configuração estática de endereço IP na interface de rede 
 
@@ -71,7 +70,7 @@ cat /etc/netplan/01-netcfg.yaml
 * Verifique o nome correto do arquivo no seu servidor. No exemplo a seguir, o nome do arquivo é ***01-netcfg.yaml***
 
 
-### Na VM-Lab01
+### Na VM1-PC3
 
 * instale as ferramentas de rede
 
@@ -88,8 +87,8 @@ $ sudo nano /etc/netplan/01-netcfg.yaml
 network:
     ethernets:
         enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
-            addresses: [172.17.0.1/24]    # IP e Máscara do Host.
-            gateway4: 172.17.0.1          # IP do Gateway
+            addresses: [192.168.24.5/28]    # IP e Máscara do Host.
+            gateway4: 192.168.24.14          # IP do Gateway
             dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
     version: 2
 ```
@@ -100,7 +99,7 @@ $ sudo netplan apply
 $ ifconfig -a
 ```
 
-### Na VM-Lab02
+### Na VM2-PC3
 
 * instale as ferramentas de rede
 
@@ -118,8 +117,8 @@ $ sudo nano /etc/netplan/01-netcfg.yaml
 network:
     ethernets:
         enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
-            addresses: [172.17.0.2/24]    # IP e Máscara do Host.
-            gateway4: 172.17.0.1          # IP do Gateway
+            addresses: [192.168.24.6]    # IP e Máscara do Host.
+            gateway4: 192.168.24.14         # IP do Gateway
             dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
     version: 2
 ```
@@ -142,10 +141,10 @@ $ ifconfig -a
    * Ping da VM1 para VM2
 
 ```shell
-ping 172.17.0.2       # ctrl + c para finalizar o comando
+ping 192.168.24.6       # ctrl + c para finalizar o comando
 ```
    * Ping da VM2 para VM1
 
 ```shell
-ping 172.17.0.1       # ctrl + c para finalizar o comando
+ping 192.168.24.5       # ctrl + c para finalizar o comando
 ```
