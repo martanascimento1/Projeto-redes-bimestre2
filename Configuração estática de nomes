@@ -30,8 +30,12 @@
 
 >**Observação**: No exemplo acima, observe que cada um dos servidores recebeu aliases além de seus nomes próprios e FQDNs. 
 >* ``grupo1-vm1-pc1`` foi mapeado para o nome ``bel``
+>* ``grupo1-vm2-pc1`` foi mapeado para o nome ``iza``
+>* ``grupo1-vm1-pc2`` foi mapeado para o nome ``crf``
 >* ``grupo1-vm2-pc2`` é referido como ``srn`` 
->* ``grupo1-vm1-pc3`` como ``debs`` e 
+>* ``grupo1-vm1-pc3`` é referido como ``debs`` 
+>* ``grupo1-vm2-pc3`` como ``nick`` 
+>* ``grupo1-vm1-pc4`` como ``juju`` e 
 >* ``grupo1-vm2-pc4`` como ``vic``.
 
 ## Configurar o serviço de nomes estático.
