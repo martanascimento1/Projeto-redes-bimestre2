@@ -1,5 +1,5 @@
 
-# Configuração de uma rede ponto a ponto com máquinas virtuais
+# Configuração de uma rede ponto a ponto com duas máquinas virtuais
 
 * Abrir terminal
 * logar com o usuário ``redes`` senha: admin@Lab92
@@ -16,9 +16,9 @@
 
 ```
 * Instale o Virtualbox Extension Pack
-```
-su redes
-sudo apt install virtualbox-ext-pack
+
+```su redes
+   sudo apt install virtualbox-ext-pack
 ```
 
 ## Criando uma Rede Ponto a Ponto com Duas Máquinas Virtuais
