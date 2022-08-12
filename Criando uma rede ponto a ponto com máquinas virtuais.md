@@ -14,10 +14,10 @@
 /labredes/VM/924/<NomeDoAluno>
 ```
 
-```
 * Instale o Virtualbox Extension Pack
 
-```su redes
+```
+   su redes
    sudo apt install virtualbox-ext-pack
 ```
 
