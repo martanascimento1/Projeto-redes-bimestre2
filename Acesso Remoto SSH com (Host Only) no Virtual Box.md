@@ -85,7 +85,14 @@ ifconfig -a
 ssh administrador@192.168.56.101
 ```
 
+![WhatsApp Image 2022-08-10 at 14 26 41](https://user-images.githubusercontent.com/103062784/184418573-38cb8395-e932-4edd-b42b-00762e38e3be.jpeg)
+![WhatsApp Image 2022-08-10 at 14 26 41 (1)](https://user-images.githubusercontent.com/103062784/184418681-86c1b704-68b8-4ede-9598-41c7a6772aa8.jpeg)
+![WhatsApp Image 2022-08-10 at 14 26 41 (2)](https://user-images.githubusercontent.com/103062784/184418761-a3edc9e4-50b5-47e7-91d6-fd678102e1cf.jpeg)
+
+
+
 # Exercício:
 
 1) Acessar uma VM a partir do terminal do PC.
-2) A partir da VM acessada faça ssh para as outras VMs da rede interna utilizando os IPs da rede 172.17.1.0
+
+![WhatsApp Image 2022-08-10 at 14 26 42](https://user-images.githubusercontent.com/103062784/184418904-08299d47-421f-48f8-92ae-cf5010075eef.jpeg)
