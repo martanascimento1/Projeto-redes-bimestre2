@@ -1,6 +1,5 @@
 # Criação de uma rede ponto a ponto física entre dois PCs e uma LAN lógica com 4 VMs
 
-## Passo 0 - Terminar toda a prática da aula [Aula de 01 de julho de 2022](https://github.com/alaelson/2022-924-notasdeaula/blob/main/Aula.924.2022.07.01.md).
 
 ## Passo 1 - Conexão ponto a ponto 
 
@@ -38,7 +37,6 @@ cat /etc/netplan/01-network-manager-all.yaml
 
 ## Criando uma Rede Ponto a Ponto com 4 Máquinas Virtuais
 
-* Iremos criar uma rede ponto a ponto entre os dois PCs mas formando uma LAN com duas VMs dentro do VirtualBox de cada PC.
 * Iremos formar uma LAN com duas VMs dentro do VirtualBox de cada PC ao criar uma rede ponto a ponto entre os dois PCs
 * Para isso tanto as VMs devem ser configuradas como as interfaces de rede dessas VMs.
 * A Figura 2 ilustra a topologia de Rede dentro do VitualBox
