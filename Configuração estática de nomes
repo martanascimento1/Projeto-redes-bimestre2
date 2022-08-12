@@ -28,7 +28,7 @@
 192.168.24.8 grupo1-vm2-pc4 victoria.grupo1-924.net vic
 ```
 
->**Observação**: No exemplo acima, observe que cada um dos servidores recebeu aliases além de seus nomes próprios e FQDNs. 
+>**Observação**: observa-se que cada um dos servidores recebeu aliases além de seus nomes próprios e FQDNs. 
 >* ``grupo1-vm1-pc1`` foi mapeado para o nome ``bel``
 >* ``grupo1-vm2-pc1`` foi mapeado para o nome ``iza``
 >* ``grupo1-vm1-pc2`` foi mapeado para o nome ``crf``
@@ -55,7 +55,7 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 | VM2-PC4-julia     | 192.168.24.8   |  grupo1-vm2-pc4 |  victoria.grupo1-924.net  |     vic        |
 ----------------------------------------------------------------------------------------------------
 ```
-* Edite os arquivo /etc/hosts conforme as definições da Tabela de Endereços e Nomes (Tabela 1)
+* Em seguida, é preciso editar os arquivo /etc/hosts conforme as definições da Tabela de Endereços e Nomes (Tabela 1) e digitar o próximo comando. 
 
 ```shell
 sudo nano /etc/hosts
@@ -81,9 +81,9 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ```
 
-> **Fazer isso em todas as VMS!!!**
+> **É necessário fazer isso em todas as VMS!!!**
 
-### Acessando uma VM remotamente:
+### Agora, acesse uma VM remotamente:
 
 * Exemplo: $ ssh ``<user>``@``<ipServidorRemoto>``
 * Fazendo o login 
