@@ -192,8 +192,9 @@ $ ifconfig -a
 
 
 <p><center> Figura 3: Configuração das NICs como modo ``bridge``</center></p>   
- 
-![WhatsApp Image 2022-08-11 at 16 44 29](https://user-images.githubusercontent.com/103062733/184233281-31c67f1a-d775-46a8-be55-01c23eaf3a95.jpeg)
+
+ ![Captura de tela de 2022-08-10 16-38-11](https://user-images.githubusercontent.com/103062733/184279175-25eb9484-1faf-4184-bd51-2cccc85f8968.png)
+
 
 
 
