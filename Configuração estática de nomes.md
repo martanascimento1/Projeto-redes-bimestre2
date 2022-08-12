@@ -9,11 +9,16 @@
 * Usuário da VM: ``administrador``
 * Senha da VM: ``adminifal``
 
+![WhatsApp Image 2022-08-12 at 15 00 11](https://user-images.githubusercontent.com/103062866/184416796-2bd177b6-6b34-4f15-8a0f-f4e5c34a8c8b.jpeg)
+
+
 ## Serviço de nomes estático do Ubuntu:
 >**_NOTA:_**
 > Nomes de host estáticos são mapeamentos de nome de host para IP definidos localmente localizados no arquivo /etc/hosts. 
 > Os nomes configurados no /etc/hosts têm precedência sobre o DNS por padrão. Assim, tentar resolver um nome de host e ele corresponder a uma entrada em /etc/hosts, ele não tentará procurar o registro no DNS. 
 >O seguinte é um exemplo de um arquivo de hosts em que vários servidores locais foram identificados por nomes de host simples, aliases e seus nomes de >**_** domínio totalmente qualificados (FQDNs) equivalentes.
+
+![WhatsApp Image 2022-08-11 at 17 05 49](https://user-images.githubusercontent.com/103062866/184416639-898d36b0-ad14-4cdd-b4c5-6109c64bce52.jpeg)
 
 ```
 127.0.0.1 localhost
@@ -27,6 +32,7 @@
 192.168.24.7 grupo1-vm1-pc4 julia.grupo1-924.net    juju
 192.168.24.8 grupo1-vm2-pc4 victoria.grupo1-924.net vic
 ```
+![WhatsApp Image 2022-08-11 at 16 06 24](https://user-images.githubusercontent.com/103062866/184416907-77860b2e-cfbf-4131-982b-b185a5c29d4d.jpeg)
 
 >**Observação**: observa-se que cada um dos servidores recebeu aliases além de seus nomes próprios e FQDNs. 
 >* ``grupo1-vm1-pc1`` foi mapeado para o nome ``bel``
@@ -60,6 +66,7 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 ```shell
 sudo nano /etc/hosts
 ```
+![WhatsApp Image 2022-08-11 at 16 06 28](https://user-images.githubusercontent.com/103062866/184416974-802c9882-9cad-4d00-85af-6d40d4557f37.jpeg)
 
 * Exemplo do arquivo /etc/hosts na VM1:
 
@@ -93,10 +100,13 @@ ff02::2 ip6-allrouters
 ```shell
 ssh administrador@192.168.56.101
 ```
+![WhatsApp Image 2022-08-11 at 17 41 14](https://user-images.githubusercontent.com/103062866/184417046-d0ef0c68-a289-4581-98cb-813442ab2897.jpeg)
 
 # Exercício:
 Acessar uma VM a partir do terminal do PC e:
 
 1) Ping para os hostnames, FQDNs e para os aliases que foram configurados nos 
 2) Acessar uma VM a partir do terminal do PC e acesse as outras VMs utilizando os nomes.
+![WhatsApp Image 2022-08-11 at 16 13 42](https://user-images.githubusercontent.com/103062866/184417085-6881700b-2354-4b9f-b68e-ee352be69399.jpeg)
+![WhatsApp Image 2022-08-11 at 16 13 47](https://user-images.githubusercontent.com/103062866/184417104-28ece24a-76b9-4f26-8757-b7ef463f407b.jpeg)
 
