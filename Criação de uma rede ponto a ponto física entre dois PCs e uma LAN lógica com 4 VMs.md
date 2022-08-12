@@ -36,6 +36,7 @@ cat /etc/netplan/01-network-manager-all.yaml
   ![Captura de tela de 2022-08-10 16-25-19](https://user-images.githubusercontent.com/103062733/184280040-e53f90df-f4d7-4bf7-9308-008b02c8e26b.png)
 
 
+
 ## Criando uma Rede Ponto a Ponto com 4 Máquinas Virtuais
 
 * Iremos formar uma LAN com duas VMs dentro do VirtualBox de cada PC ao criar uma rede ponto a ponto entre os dois PCs
