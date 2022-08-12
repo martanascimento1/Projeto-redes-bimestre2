@@ -31,13 +31,14 @@
 ifconfig -a       # verifique a existência da interface ``vboxnet0``
 ```
 
+![WhatsApp Image 2022-08-10 at 13 58 45](https://user-images.githubusercontent.com/103062784/184416421-7dfab9c4-ebea-4867-8904-62c1922f0670.jpeg)
+
 ## 3) Adicionar um adaptador (HostOnly) em uma VM
 
 * Para dar acesso a uma VM via rede pelo ``Terminal`` do PC devemos adicionar um novo adapatador de rede à VM.
 
-<p><center> Figura 3: Adapatador 2 em modo Host-Only</center></p>   
-   <img src="figuresHostOnly/adaptador2.png" alt=""
-    title="Figura 3: Host-Only" width="800" height="auto"/> <br/>
+
+![WhatsApp Image 2022-08-10 at 13 58 45 (1)](https://user-images.githubusercontent.com/103062784/184416787-4bc5662a-a151-4f58-94fe-331d3518e063.jpeg)
 
 
 
@@ -48,6 +49,7 @@ ifconfig -a       # verifique a existência da interface ``vboxnet0``
 ```shell
 ifconfig -a       # verifique a existência da interface ``enp0s8``
 ```
+![WhatsApp Image 2022-08-10 at 13 58 46](https://user-images.githubusercontent.com/103062784/184417043-0252d852-4c45-46a8-830f-a4101b6557cb.jpeg)
 
 
 * Configure as interfaces no netplan e ative o DHCO para o Adaptador 2 (enp0s8)
@@ -55,10 +57,8 @@ ifconfig -a       # verifique a existência da interface ``enp0s8``
 ```shell
 sudo nano /etc/netplan/01-netcfg.yaml
 ```
+![WhatsApp Image 2022-08-10 at 13 58 46 (1)](https://user-images.githubusercontent.com/103062784/184417293-53a77335-5492-420b-9edf-a0fa2e374044.jpeg)
 
-<p><center> Figura 5: Netplan configuration</center></p>   
-   <img src="figuresHostOnly/netplan-cfg.png" alt=""
-    title="Figura 5: Netplan configuration" width="800" height="auto"/> <br/>
 
 * ative as configurações:
 
@@ -71,10 +71,8 @@ sudo netplan apply
 ```shell
 ifconfig -a
 ```
+![WhatsApp Image 2022-08-10 at 13 58 46 (2)](https://user-images.githubusercontent.com/103062784/184417752-fcdb1edc-10c9-4c46-a170-6b52aa28229b.jpeg)
 
-<p><center> Figura 4: verificar interfaces com ifconfig</center></p>   
-   <img src="figuresHostOnly/ifconfig.png" alt=""
-    title="Figura 4: ifconfig" width="800" height="auto"/> <br/>
 
 ### Acessando uma VM remotamente:
 
