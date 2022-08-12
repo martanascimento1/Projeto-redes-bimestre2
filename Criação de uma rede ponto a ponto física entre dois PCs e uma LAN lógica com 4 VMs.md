@@ -32,8 +32,8 @@ cat /etc/netplan/01-network-manager-all.yaml
 ```
 
 <p><center> Figura 1: comando ifconfig e arquivo de configuração do Netplan</center></p>   
-   <img src="figuresBridgeNetwork/NetworkManager-UbuntuDesktop2.png" alt=""
-	title="Figura 1: VMs em execução" width="600" height="auto"/> <br/>
+  ![Captura de tela de 2022-08-10 16-25-19](https://user-images.githubusercontent.com/103062733/184280040-e53f90df-f4d7-4bf7-9308-008b02c8e26b.png)
+
 
 ## Criando uma Rede Ponto a Ponto com 4 Máquinas Virtuais
 
