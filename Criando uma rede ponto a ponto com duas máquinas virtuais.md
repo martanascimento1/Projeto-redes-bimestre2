@@ -55,7 +55,9 @@
 * Senha da VM: ``adminifal``
 
 <p><center> Figura 3: Telas das duas VMs em execução</center></p>   
-   
+ 
+![WhatsApp Image 2022-08-12 at 15 05 46](https://user-images.githubusercontent.com/103062733/184417765-6ff59e16-19c1-496b-91e3-1a5a600e74f1.jpeg)
+
 
 ## Configuração estática de endereço IP na interface de rede 
 
