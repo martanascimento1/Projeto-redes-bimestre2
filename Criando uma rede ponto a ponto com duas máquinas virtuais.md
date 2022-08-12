@@ -38,6 +38,7 @@
 
 * A Figura 2 Ilustra as configurações para a importação das VMs: VM1-PC3-debora e VM2-PC3-nycolli
 <p><center>Figura 2: Criando uma VM a partir de um arquivo OVA
+ 
 ![184224800-9b10b210-cf25-4103-972b-63c53931d3b6](https://user-images.githubusercontent.com/103062733/184265457-9db87a39-4c37-44e4-8360-29a05729490c.jpeg)
 
 
