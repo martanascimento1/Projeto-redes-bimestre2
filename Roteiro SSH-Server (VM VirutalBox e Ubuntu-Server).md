@@ -35,21 +35,22 @@ Tabela 1: Definições de endereços IPs das redes:
 
 * NA VM1-PC1 executar:
 ```shell
-sudo hostnamectl set-hostname srv-vm1-pc1
+sudo hostnamectl set-hostname srv-vm1-pc2
 ```
 ![WhatsApp Image 2022-08-09 at 16 27 05](https://user-images.githubusercontent.com/103062784/184226890-e578f926-69a9-452c-88dc-7ba97191a5b3.jpeg)
 
-* Fazer o mesmo nas outras VMs, seguindo as definições de nomes da tabela.
 
 
-## Instalando o servidor SSH
 
-### Antes de Começar:
-   1. acessar as configurações de cada VM e altere novamente o Adaptador1 para **NAT**
+## Instalar o servidor SSH
+
+### Inicialmente:
+   1. acessar as configurações de cada VM e alterar novamente o Adaptador1 para **NAT**
    
 ![WhatsApp Image 2022-08-09 at 16 27 05 (2)](https://user-images.githubusercontent.com/103062784/184227599-655311a3-af26-4c62-87e5-15f68e266531.jpeg)
 
-   3. Comente as linhas de endereço IP estático e ative o DHCP nas configurações do Netplan
+   3. Comentar as linhas de endereço IP estático e ativar o DHCP nas configurações do Netplan
+   4. 
   ```shell
   sudo nano /etc/netplan/01-netcfg.yaml
   ```
@@ -57,7 +58,7 @@ sudo hostnamectl set-hostname srv-vm1-pc1
   ![WhatsApp Image 2022-08-09 at 16 27 06](https://user-images.githubusercontent.com/103062784/184228132-af7598c3-6cb5-4912-b5f4-beb61af9e791.jpeg)
 
    
-### Ceritifique-se que a VM está acessando a internet:
+### Ceritificar-se que a VM está acessando a internet:
 
 ```shell
 sudo apt update       # atualiza as definições e versões de pacotes/bibliotecas dos repositórios do ubuntu
@@ -105,7 +106,7 @@ netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está com
 
 
 ### Firewall 
-* Para garantir o funcioamento correto do controle de acesso devemos configurar o firewall para permitir conexões remota via protocolo SSH, na porta 22.
+* Para garantir o funcionamento correto do controle de acesso é necessário configurar o firewall para permitir conexões remota via protocolo SSH, na porta 22.
  
 ```shell
 sudo ufw status
@@ -123,7 +124,7 @@ sudo ufw status
 ```
 ![WhatsApp Image 2022-08-09 at 17 59 28](https://user-images.githubusercontent.com/103062784/184233663-219d022e-1499-4f97-ae3b-49e3223a220f.jpeg)
 
-* Para ativar o firewall:
+* Ativar o firewall:
 ```shell 
 sudo ufw enable
 ```
@@ -142,7 +143,7 @@ sudo ufw enable
   
 ![WhatsApp Image 2022-08-11 at 17 31 34](https://user-images.githubusercontent.com/103062784/184238748-52c18fd1-3991-4ad2-be89-71995015bd81.jpeg)
 
-### Acessando uma VM remotamente:
+### Acessar uma VM remotamente:
 
 * Exemplo: $ ssh ``<administrador>``@``<192.168.24.4>``
 * Fazendo o login 
@@ -157,16 +158,16 @@ ssh administrador@192.168.24.4
 ```
 
 
-# Exercício:
+# Tarefa final:
 
 1) Acessar a partir da VM1-PC1 todas as outras via ssh:
-2) Crie dois usuários (use o comando ``sudo adduser``) em cada servidor com o nome dos alunos da dupla.
+2) Crie um usuário (use o comando ``sudo adduser``) .
 
 ![WhatsApp Image 2022-08-09 at 17 59 31 (1)](https://user-images.githubusercontent.com/103062784/184239940-20056125-d319-4f04-a0e9-137eecaa4ad0.jpeg)
 
 
 
-4) Faça o login via ssh nos servidores usando cada usuário criado.
+4) Façalogin via ssh nos servidores usando cada usuário criado.
 
 
 ![WhatsApp Image 2022-08-09 at 17 59 31](https://user-images.githubusercontent.com/103062784/184239878-50283f8d-3469-41bd-bd31-33ad5533aadc.jpeg)
