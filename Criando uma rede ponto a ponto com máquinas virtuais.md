@@ -28,8 +28,8 @@
 * A Figura 1 ilustra a topologia de Rede dentro do VitualBox
 
 <p><center> Figura 1: Topologia de Rede Ponto a Ponto usando o VitualBox, com duas VMs com suas NICs em modo Rede Interna</center></p>   
-   <img src="figuresPTP/PTP-Network-Virtualbox.png" alt=""
-	title="Figura 1: Topologia de Rede Ponto a Ponto" width="800" height="280" />
+   
+![WhatsApp Image 2022-08-11 at 21 48 15](https://user-images.githubusercontent.com/103062733/184265422-9f463f31-e8a4-4bfb-bdac-46bc2065d7a6.jpeg)
 
 ### Importar VMs no VirtualBox
 
@@ -38,9 +38,10 @@
 
 * A Figura 2 Ilustra as configurações para a importação das VMs: VM1-PC3-debora e VM2-PC3-nycolli
 
-![WhatsApp Image 2022-08-10 at 14 25 40](https://user-images.githubusercontent.com/103062733/184224800-9b10b210-cf25-4103-972b-63c53931d3b6.jpeg)
+![184224800-9b10b210-cf25-4103-972b-63c53931d3b6](https://user-images.githubusercontent.com/103062733/184265457-9db87a39-4c37-44e4-8360-29a05729490c.jpeg)
 
-![WhatsApp Image 2022-08-10 at 14 25 41 (1)](https://user-images.githubusercontent.com/103062733/184225114-6917167b-6e50-4934-87f6-9386d87c1c6b.jpeg)
+
+![WhatsApp Image 2022-08-11 at 21 40 18](https://user-images.githubusercontent.com/103062733/184265464-4c5b0239-9dff-4e53-bd7e-d7f945308fc7.jpeg)
 
 ### Configurando as NICs das VMs
 
