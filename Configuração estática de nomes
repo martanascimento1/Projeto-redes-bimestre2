@@ -29,10 +29,10 @@
 ```
 
 >**Observação**: No exemplo acima, observe que cada um dos servidores recebeu aliases além de seus nomes próprios e FQDNs. 
->* ``Server1`` foi mapeado para o nome ``vpn``
->* ``server2`` é referido como ``mail`` 
->* ``server3`` como ``www`` e 
->* ``server4`` como ``file``.
+>* ``grupo1-vm1-pc1`` foi mapeado para o nome ``bel``
+>* ``grupo1-vm2-pc2`` é referido como ``srn`` 
+>* ``grupo1-vm1-pc3`` como ``debs`` e 
+>* ``grupo1-vm2-pc4`` como ``vic``.
 
 ## Configurar o serviço de nomes estático.
 
