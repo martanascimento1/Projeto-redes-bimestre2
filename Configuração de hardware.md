@@ -18,3 +18,7 @@
 ------------------------------------------------------------------------------------------
 ```
 
+![](x-special/nautilus-clipboard
+copy
+file:///home/aluno/%C3%81rea%20de%20Trabalho/Captura%20de%20tela%20de%202022-08-12%2015-37-25.png
+)
