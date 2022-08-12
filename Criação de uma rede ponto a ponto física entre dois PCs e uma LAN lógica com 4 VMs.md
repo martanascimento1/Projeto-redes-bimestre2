@@ -39,6 +39,7 @@ cat /etc/netplan/01-network-manager-all.yaml
 ## Criando uma Rede Ponto a Ponto com 4 Máquinas Virtuais
 
 * Iremos criar uma rede ponto a ponto entre os dois PCs mas formando uma LAN com duas VMs dentro do VirtualBox de cada PC.
+* Iremos formar uma LAN com duas VMs dentro do VirtualBox de cada PC ao criar uma rede ponto a ponto entre os dois PCs
 * Para isso tanto as VMs devem ser configuradas como as interfaces de rede dessas VMs.
 * A Figura 2 ilustra a topologia de Rede dentro do VitualBox
 
@@ -186,7 +187,7 @@ $ sudo netplan apply
 $ ifconfig -a
 ```
 ## Montando a rede LAN Ponto a Ponto com cabeamento
-* conecte o cabo de rede entre os dois PCs conforme a Figura 2a
+* um cabo de rede deve estar conectado entre os dois PCs conforme a Figura 2a
    
 ## Configuração da rede ``bridge`` do VirtualBox nos dois PCs e nas duas VMs
 * Para conseguirmos uma topologia de rede conforme a Figura 3, temos de configurar o modo bridge nos adapatadores de rede das VMs
@@ -198,17 +199,17 @@ $ ifconfig -a
 
 
 
-### Teste a conectividade entre as VMs com o comando ``ping``
+### Testando a conectividade entre as VMs com o comando ``ping``
 
-   * Ping da VM1-PC1 para VM2-PC2
+   * Ping da VM1-PC3-debora para VM2-PC1-izabel
 
 ```shell
-ping 172.17.1.4       # ctrl + c para finalizar o comando
+ping 192.168.24.2       # ctrl + c para finalizar o comando
 ```
-   * Ping da VM2-PC2 para VM2-PC1
+   * Ping da VM2-PC-izabel para VM2-PC3-nycolli
 
 ```shell
-ping 172.17.1.1       # ctrl + c para finalizar o comando
+ping 192.168.24.6       # ctrl + c para finalizar o comando
 ```
 
 * Fazer ping de todos para todos.
