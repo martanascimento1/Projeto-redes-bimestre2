@@ -12,7 +12,6 @@
 
 ```
 Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
-Tabela 1: Definições de endereços IPs das redes:
 --------------------------------------
 |     DESCRICAO     |       IP       |   hostname
 --------------------------------------
@@ -75,7 +74,7 @@ sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões
 
 ![WhatsApp Image 2022-08-09 at 16 40 03](https://user-images.githubusercontent.com/103062784/184230024-ba20e666-0571-40ae-89a7-4659e5db0465.jpeg)
 
-### Instale o SSH Server
+### Instalar o SSH Server
 
 ```shell
 systemctl status ssh
@@ -95,7 +94,7 @@ systemctl status ssh
 ![WhatsApp Image 2022-08-09 at 17 59 25 (1)](https://user-images.githubusercontent.com/103062784/184234321-5a2f81d0-4a82-4749-bc08-c97b6de1befd.jpeg)
 
 
-### Verifique o status das portas do sistema
+### Verificar o status das portas do sistema
 ```
 netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está como LINSTENING
 ```
@@ -132,11 +131,11 @@ sudo ufw enable
 
 
 ### Refazendo a topologia de rede da Prática
-* Retorne as configurações de interface de rede para o modo bridge em cada VM no VirtualBox:
+* Coloque as configurações de interface de rede para o modo bridge em cada VM no VirtualBox:
 ![WhatsApp Image 2022-08-11 at 17 22 37](https://user-images.githubusercontent.com/103062784/184235445-1e172bac-74d3-4f1e-97d6-c45393859610.jpeg)
 
 
-* Ative o endereçamento IP estático conforme a Tabela 1.
+* Ative o endereçamento IP estático .
 ```shell
   sudo nano /etc/netplan/01-netcfg.yaml
   ```
@@ -161,7 +160,7 @@ ssh administrador@192.168.24.4
 # Tarefa final:
 
 1) Acessar a partir da VM1-PC1 todas as outras via ssh:
-2) Crie um usuário (use o comando ``sudo adduser``) .
+2) Criar um usuário (use o comando ``sudo adduser``) .
 
 ![WhatsApp Image 2022-08-09 at 17 59 31 (1)](https://user-images.githubusercontent.com/103062784/184239940-20056125-d319-4f04-a0e9-137eecaa4ad0.jpeg)
 
@@ -171,4 +170,5 @@ ssh administrador@192.168.24.4
 
 
 ![WhatsApp Image 2022-08-09 at 17 59 31](https://user-images.githubusercontent.com/103062784/184239878-50283f8d-3469-41bd-bd31-33ad5533aadc.jpeg)
+![WhatsApp Image 2022-08-12 at 15 28 46](https://user-images.githubusercontent.com/103062784/184421432-324a5a5d-8fd6-4abc-9034-157b4da635f3.jpeg)
 
