@@ -13,7 +13,7 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 * [6. Configuração estática de nomes](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/635cf13f1ac80f162d1b658a2e1cb1fa1475dee1/Configura%C3%A7%C3%A3o%20est%C3%A1tica%20de%20nomes.md)
 
 # Visualização do ambiente de rede
-* [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/635cf13f1ac80f162d1b658a2e1cb1fa1475dee1/Tabela%20de%20nomes%20e%20IPs)
+* [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b03207876eadc7c9133d2d46ed66b0061d89d391/Tabela%20de%20nomes%20e%20IPs.md)
 * [Configuração de hardware](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/3ec46b5d5d81220a2d4889985972a2c223338c90/Configura%C3%A7%C3%A3o%20de%20hardware.md)
 
 # Como configurar o teclado da VM para pt-BR?
