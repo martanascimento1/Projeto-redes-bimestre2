@@ -11,10 +11,8 @@ As bibliotecas e as aplicações também verificam essas variável para carregar
 
 ```shell
 locale
-```
-  <img src="figuresLocale/locale-cmd.png" alt=""
-	title="Figura 1: locale" width="800" height="auto" />
-  <p><center> Figura 1: Saída de tela do comando **locale** antes da configuração.</center></p>   
+```  
+  Figura 1: Saída de tela do comando **locale** antes da configuração.  
 
 *  O **localectl** é uma interface que facilita as configurações de locale no linux.
 * ``localectl status`` exibe as configurações atuais de idioma e layout de teclado atuais.
@@ -22,9 +20,7 @@ locale
 ```shell
 localectl status
 ```
-  <img src="figuresLocale/localectl-status-cmd.png" alt=""
-	title="Figura 2: locale" width="800" height="auto" />
-  <p><center> Figura 2: Saída de tela do comando **locale status** antes da configuração.</center></p>   
+  Figura 2: Saída de tela do comando **locale status** antes da configuração.  
 
 * Instale o pacote de idiomas para português:
 
@@ -45,9 +41,7 @@ sudo localectl set-locale LANG=pt_BR.utf8
 sudo localectl set-x11-keymap br abnt2 
 localect status # verifique a saída de tela 
 ```
-
-<img src="figuresLocale/localectl-setlocale-cmd.png" alt=""
-	title="Figura 3: configuração do idioma e do layout de teclado para pt-br" width="800" height="auto" />
-  <p><center> Figura 3: Configuração do idioma e do layout de teclado para pt-br.</center></p>   
+	
+ Figura 3: Configuração do idioma e do layout de teclado para pt-br.
 
 * Reinicie a VM com ``sudo reboot``
