@@ -7,6 +7,7 @@ As bibliotecas e as aplicações também verificam essas variável para carregar
 
 
 * Identifique os idiomas carregados no sistema com ``locale``
+* Pelo terminal da VM:
 
 ```shell
 locale
