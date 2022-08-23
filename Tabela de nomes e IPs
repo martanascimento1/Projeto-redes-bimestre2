@@ -2,6 +2,7 @@
 
 Tabela 1: Definições de endereços IPs das redes:
 
+```
 --------------------------------------
 |     DESCRICAO     |       IP       | 
 --------------------------------------
@@ -17,10 +18,12 @@ Tabela 1: Definições de endereços IPs das redes:
 | VM1-PC4-julia     | 192.168.24.7   |
 | VM2-PC4-julia     | 192.168.24.8   |
 --------------------------------------
+```
 
 # Configuração do serviço de nomes estáticos.
 
 Tabela 2: definições de endereços IPs da rede e nome dos hosts
+```
 ----------------------------------------------------------------------------------------------------
 |     DESCRICAO     |       IP        |    hostname    |           FQDN            |     aliase     |             
 ----------------------------------------------------------------------------------------------------
@@ -33,4 +36,4 @@ Tabela 2: definições de endereços IPs da rede e nome dos hosts
 | VM1-PC4-julia     | 192.168.24.7   |  grupo1-vm1-pc4 |  julia.grupo1-924.net     |     juju       |
 | VM2-PC4-julia     | 192.168.24.8   |  grupo1-vm2-pc4 |  victoria.grupo1-924.net  |     vic        |
 ----------------------------------------------------------------------------------------------------
-
+```
