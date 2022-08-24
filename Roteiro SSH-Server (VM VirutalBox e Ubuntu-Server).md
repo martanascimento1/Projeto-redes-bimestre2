@@ -32,7 +32,6 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 
 * NA VM executar:
 
-```shell
 sudo hostnamectl set-hostname grupo1-vm1-pc2
 ```
 
