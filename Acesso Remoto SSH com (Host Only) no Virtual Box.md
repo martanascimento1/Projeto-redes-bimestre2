@@ -22,7 +22,7 @@
 
 * Clique em na aba ``Servidor DHCP``
 
-![WhatsApp Image 2022-08-10 at 13 58 43 (1)](https://user-images.githubusercontent.com/103062784/184416000-39201056-b574-4476-aff4-a963276143dd.jpeg)
+![WhatsApp Image 2022-08-23 at 16 56 33](https://user-images.githubusercontent.com/103062784/186419341-e45ce1db-5d48-4eff-a72a-a51f95bb3704.jpeg)
 
 
 * Verifique a configuração das interfaces usando o ``Terminal``
@@ -38,7 +38,7 @@ ifconfig -a       # verifique a existência da interface ``vboxnet0``
 * Para dar acesso a uma VM via rede pelo ``Terminal`` do PC devemos adicionar um novo adapatador de rede à VM.
 
 
-![WhatsApp Image 2022-08-10 at 13 58 45 (1)](https://user-images.githubusercontent.com/103062784/184416787-4bc5662a-a151-4f58-94fe-331d3518e063.jpeg)
+![WhatsApp Image 2022-08-23 at 17 00 23](https://user-images.githubusercontent.com/103062784/186419548-2bdd195e-446d-4331-879e-aaa883eaf6cc.jpeg)
 
 
 
@@ -49,8 +49,8 @@ ifconfig -a       # verifique a existência da interface ``vboxnet0``
 ```shell
 ifconfig -a       # verifique a existência da interface ``enp0s8``
 ```
-![WhatsApp Image 2022-08-10 at 13 58 46](https://user-images.githubusercontent.com/103062784/184417043-0252d852-4c45-46a8-830f-a4101b6557cb.jpeg)
 
+![WhatsApp Image 2022-08-24 at 09 38 34](https://user-images.githubusercontent.com/103062784/186420423-6a0fc045-05e3-4c70-ac19-2b504603caaa.jpeg)
 
 * Configure as interfaces no netplan e ative o DHCP para o Adaptador 2 (enp0s8)
 
@@ -84,10 +84,8 @@ ifconfig -a
 ```shell
 ssh administrador@192.168.56.101
 ```
+![WhatsApp Image 2022-08-23 at 17 09 40](https://user-images.githubusercontent.com/103062784/186421408-571f0b5e-cb87-466a-bfa7-2c1200f03dfd.jpeg)
 
-![WhatsApp Image 2022-08-10 at 14 26 41](https://user-images.githubusercontent.com/103062784/184418573-38cb8395-e932-4edd-b42b-00762e38e3be.jpeg)
-![WhatsApp Image 2022-08-10 at 14 26 41 (1)](https://user-images.githubusercontent.com/103062784/184418681-86c1b704-68b8-4ede-9598-41c7a6772aa8.jpeg)
-![WhatsApp Image 2022-08-10 at 14 26 41 (2)](https://user-images.githubusercontent.com/103062784/184418761-a3edc9e4-50b5-47e7-91d6-fd678102e1cf.jpeg)
 
 
 
@@ -95,4 +93,5 @@ ssh administrador@192.168.56.101
 
 1) Acessar uma VM a partir do terminal do PC.
 
-![WhatsApp Image 2022-08-10 at 14 26 42](https://user-images.githubusercontent.com/103062784/184418904-08299d47-421f-48f8-92ae-cf5010075eef.jpeg)
+
+![WhatsApp Image 2022-08-23 at 17 10 56](https://user-images.githubusercontent.com/103062784/186421483-446d70c9-33c1-40f5-b462-465b459b107a.jpeg)
