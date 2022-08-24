@@ -57,7 +57,8 @@ ifconfig -a       # verifique a existência da interface ``enp0s8``
 ```shell
 sudo nano /etc/netplan/01-netcfg.yaml
 ```
-![WhatsApp Image 2022-08-10 at 13 58 46 (1)](https://user-images.githubusercontent.com/103062784/184417293-53a77335-5492-420b-9edf-a0fa2e374044.jpeg)
+
+![WhatsApp Image 2022-08-24 at 13 34 43](https://user-images.githubusercontent.com/103062784/186473822-64fab47f-8797-401a-9c02-8b565ab63680.jpeg)
 
 
 * ative as configurações:
