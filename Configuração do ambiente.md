@@ -16,6 +16,8 @@ Após a instalação, é necessário criar as pastas no computador.
 ```shell
 su redes
 ```
+Figura 1: Logando no usuário redes pelo comando "su". No Ubuntu (como em qualquer sistema Linux), quando deseja-se trocar de usuário usa-se o comando "su" e o nome do usuário que deseja logar, ao pedir a senha, essa não será visualizada, pois isso visa sempre a segurança do sistema. 
+
 ![Figura 1: Logando no usuário redes com o comando "su".](https://user-images.githubusercontent.com/98924290/183898793-dc7d84a8-7a30-43d2-ba81-4942b2347bcf.jpeg)
 
  Após isso, é necessário digitar a senha do usuário.
