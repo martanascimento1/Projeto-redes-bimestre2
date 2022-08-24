@@ -35,7 +35,7 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 * NA VM1-PC1 executar:
 
 ```shell
-sudo hostnamectl set-hostname srv-vm1-pc2
+sudo hostnamectl set-hostname grupo1-vm1-pc2
 ```
 
 ![WhatsApp Image 2022-08-24 at 08 58 52](https://user-images.githubusercontent.com/103062784/186412988-fe47f99d-a590-490c-b368-ce7a81eb1b91.jpeg)
@@ -49,7 +49,7 @@ sudo hostnamectl set-hostname srv-vm1-pc2
 ![WhatsApp Image 2022-08-23 at 16 04 30](https://user-images.githubusercontent.com/103062784/186413199-fe692b27-6095-42e7-938d-cf3d97474570.jpeg)
 
 
-   2. Comentar as linhas de endereço IP estático e ativar o DHCP nas configurações do Netplan
+   2. Comentar as linhas de endereço IP estático e ativar o DHCP nas configurações do Netplan usando o comando :
   
   ```shell
   sudo nano /etc/netplan/01-netcfg.yaml
@@ -78,11 +78,15 @@ sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões
 
 ### Instalar o SSH Server
 
+*Para ver o status:
+
 ```shell
 systemctl status ssh
 ```
 
 ![WhatsApp Image 2022-08-23 at 16 18 40](https://user-images.githubusercontent.com/103062784/186413701-561f02f7-3a54-467d-aa6a-72092ab9c166.jpeg)
+
+*Para ver instalar:
 
 
 ``` shell
@@ -102,7 +106,8 @@ systemctl status ssh
 
 
 ### Verificar o status das portas do sistema
-```
+
+``` shell
 netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está como LINSTENING
 ```
 ![WhatsApp Image 2022-08-23 at 16 22 12](https://user-images.githubusercontent.com/103062784/186413961-1c6ddafc-3cdd-48c6-af04-e73131dc63cb.jpeg)
