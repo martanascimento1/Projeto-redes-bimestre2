@@ -30,9 +30,7 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 
 ### Atribuir nomes aos servidores ``hostname``
 
-* formato: ``sudo hostnamectl set-hostname <hostname>``
-
-* NA VM1-PC1 executar:
+* NA VM executar:
 
 ```shell
 sudo hostnamectl set-hostname grupo1-vm1-pc2
@@ -60,15 +58,18 @@ sudo hostnamectl set-hostname grupo1-vm1-pc2
    
 ### Ceritificar-se que a VM está acessando a internet:
 
+* Para atualizar as definições e versões de pacotes/bibliotecas dos repositórios do ubuntu:
+
 ```shell
-sudo apt update       # atualiza as definições e versões de pacotes/bibliotecas dos repositórios do ubuntu
+sudo apt update        
 ```
 
 ![WhatsApp Image 2022-08-23 at 16 14 59](https://user-images.githubusercontent.com/103062784/186413396-45f409e1-5d36-452d-9df2-1d38fe4733dc.jpeg)
 
+* Para atualizar os pacotes com as novas definições e versões:
 
 ```shell
-sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões 
+sudo apt upgrade -y  
 ```
 
 ![WhatsApp Image 2022-08-23 at 16 16 48](https://user-images.githubusercontent.com/103062784/186413582-e1edf441-d3a2-4407-9918-b1bd55a03c0e.jpeg)
@@ -78,7 +79,7 @@ sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões
 
 ### Instalar o SSH Server
 
-*Para ver o status:
+* Para ver o status:
 
 ```shell
 systemctl status ssh
@@ -86,7 +87,7 @@ systemctl status ssh
 
 ![WhatsApp Image 2022-08-23 at 16 18 40](https://user-images.githubusercontent.com/103062784/186413701-561f02f7-3a54-467d-aa6a-72092ab9c166.jpeg)
 
-*Para ver instalar:
+*Para instalar:
 
 
 ``` shell
@@ -107,8 +108,10 @@ systemctl status ssh
 
 ### Verificar o status das portas do sistema
 
+* Verificando se as conexões TCP na porta 22 está como LINSTENING:
+* 
 ``` shell
-netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está como LINSTENING
+netstat -an | grep LISTEN.  
 ```
 ![WhatsApp Image 2022-08-23 at 16 22 12](https://user-images.githubusercontent.com/103062784/186413961-1c6ddafc-3cdd-48c6-af04-e73131dc63cb.jpeg)
 
@@ -126,9 +129,10 @@ sudo ufw status
 
 ![WhatsApp Image 2022-08-23 at 16 23 49](https://user-images.githubusercontent.com/103062784/186414205-82eeb75b-5aff-4ec1-ba27-2ceb5806c88a.jpeg)
 
+* Para ativar o ssh no firewall UFW do ubuntu.
 
 ```shell
-sudo ufw allow ssh.    # ativa o ssh no firewall UFW do ubuntu.
+sudo ufw allow ssh.    
 ```
 ![WhatsApp Image 2022-08-23 at 16 24 44](https://user-images.githubusercontent.com/103062784/186414270-6a978c7e-67b0-4d62-8db7-fdbbcf2b7670.jpeg)
 
@@ -153,6 +157,7 @@ sudo ufw enable
 
 
 * Ative o endereçamento IP estático .
+* 
 ```shell
   sudo nano /etc/netplan/01-netcfg.yaml
   ```
