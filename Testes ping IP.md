@@ -1,8 +1,8 @@
+# Testes do ping para o IP de cada máquina virtual
+
 *Figura 1:* A imagem mostra o teste de ping realizado para a máquina com o IP 192.168.24.1.
 
 ![](https://user-images.githubusercontent.com/98924290/186483687-7d74517e-1dc8-4f1f-8867-97279b43db35.jpeg)
-
-# Testes do ping para o IP de cada máquina virtual
 
 *Figura 2:* A imagem mostra o teste de ping realizado para a máquina com o IP 192.168.24.2.
 
