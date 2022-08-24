@@ -71,7 +71,7 @@ sudo apt update       # atualiza as definições e versões de pacotes/bibliotec
 sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões 
 ```
 
-![WhatsApp Image 2022-08-09 at 16 37 18](https://user-images.githubusercontent.com/103062784/184229438-99c8d006-a4ac-4109-a725-153e2724a63a.jpeg)
+![WhatsApp Image 2022-08-23 at 16 16 48](https://user-images.githubusercontent.com/103062784/186413582-e1edf441-d3a2-4407-9918-b1bd55a03c0e.jpeg)
 
 
 ![WhatsApp Image 2022-08-09 at 16 40 03](https://user-images.githubusercontent.com/103062784/184230024-ba20e666-0571-40ae-89a7-4659e5db0465.jpeg)
@@ -81,27 +81,33 @@ sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões
 ```shell
 systemctl status ssh
 ```
-![WhatsApp Image 2022-08-09 at 17 59 18](https://user-images.githubusercontent.com/103062784/184231049-750b3141-a30b-499c-bfbf-6b5fa95bf317.jpeg)
+
+![WhatsApp Image 2022-08-23 at 16 18 40](https://user-images.githubusercontent.com/103062784/186413701-561f02f7-3a54-467d-aa6a-72092ab9c166.jpeg)
 
 
 ``` shell
 sudo apt-get install openssh-server
 ```
+![WhatsApp Image 2022-08-23 at 16 19 47](https://user-images.githubusercontent.com/103062784/186413785-2a42e60d-605d-4246-8634-3451437cf427.jpeg)
 
-![WhatsApp Image 2022-08-09 at 17 59 19](https://user-images.githubusercontent.com/103062784/184231225-f585a94b-4ccd-4596-87d9-67a9e1b7a202.jpeg)
+
 
 ```shell
 systemctl status ssh
 ```
-![WhatsApp Image 2022-08-09 at 17 59 25 (1)](https://user-images.githubusercontent.com/103062784/184234321-5a2f81d0-4a82-4749-bc08-c97b6de1befd.jpeg)
+
+![WhatsApp Image 2022-08-23 at 16 21 21](https://user-images.githubusercontent.com/103062784/186413858-91c239b5-15c9-46bc-97ea-0ad6ffa8c33f.jpeg)
+
+
 
 
 ### Verificar o status das portas do sistema
 ```
 netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está como LINSTENING
 ```
+![WhatsApp Image 2022-08-23 at 16 22 12](https://user-images.githubusercontent.com/103062784/186413961-1c6ddafc-3cdd-48c6-af04-e73131dc63cb.jpeg)
 
-![WhatsApp Image 2022-08-09 at 17 59 26](https://user-images.githubusercontent.com/103062784/184234379-f14be003-1f5f-4035-a94a-62d762fd1046.jpeg)
+
 
 ![WhatsApp Image 2022-08-09 at 17 59 27 (2)](https://user-images.githubusercontent.com/103062784/184234550-f1c3a047-c69b-4f71-b692-da15e9fca324.jpeg)
 
