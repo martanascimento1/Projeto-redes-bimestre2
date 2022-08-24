@@ -131,15 +131,15 @@ sudo ufw allow ssh.    # ativa o ssh no firewall UFW do ubuntu.
 ```shell
 sudo ufw status
 ```
-![WhatsApp Image 2022-08-23 at 16 26 45](https://user-images.githubusercontent.com/103062784/186414344-4ebb1657-c32c-4d6b-87c0-0a81b8ee1170.jpeg)
 
+![WhatsApp Image 2022-08-24 at 09 26 35](https://user-images.githubusercontent.com/103062784/186418100-9604f84f-7114-4b2c-8a68-45461dad2b8a.jpeg)
 
 * Ativar o firewall:
 ```shell 
 sudo ufw enable
 ```
-![WhatsApp Image 2022-08-11 at 14 58 37](https://user-images.githubusercontent.com/103062784/184233768-f678988c-80f6-4e18-ba64-8418206d535b.jpeg)
 
+![WhatsApp Image 2022-08-24 at 09 24 57](https://user-images.githubusercontent.com/103062784/186417839-90f1e71f-f69f-4001-a570-73e3171d0fe9.jpeg)
 
 ### Refazendo a topologia de rede da Prática
 * Coloque as configurações de interface de rede para o modo bridge em cada VM no VirtualBox:
