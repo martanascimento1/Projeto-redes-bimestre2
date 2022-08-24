@@ -46,15 +46,16 @@ sudo hostnamectl set-hostname srv-vm1-pc2
 ### Inicialmente:
    1. acessar as configurações de cada VM e alterar novamente o Adaptador1 para **NAT**
    
-![WhatsApp Image 2022-08-09 at 16 27 05 (2)](https://user-images.githubusercontent.com/103062784/184227599-655311a3-af26-4c62-87e5-15f68e266531.jpeg)
+![WhatsApp Image 2022-08-23 at 16 04 30](https://user-images.githubusercontent.com/103062784/186413199-fe692b27-6095-42e7-938d-cf3d97474570.jpeg)
 
-   3. Comentar as linhas de endereço IP estático e ativar o DHCP nas configurações do Netplan
-   4. 
+
+   2. Comentar as linhas de endereço IP estático e ativar o DHCP nas configurações do Netplan
+  
   ```shell
   sudo nano /etc/netplan/01-netcfg.yaml
   ```
   
-  ![WhatsApp Image 2022-08-09 at 16 27 06](https://user-images.githubusercontent.com/103062784/184228132-af7598c3-6cb5-4912-b5f4-beb61af9e791.jpeg)
+  ![WhatsApp Image 2022-08-23 at 16 06 47](https://user-images.githubusercontent.com/103062784/186413326-74b90cbe-6e71-4859-8b21-57623dc1ddc6.jpeg)
 
    
 ### Ceritificar-se que a VM está acessando a internet:
@@ -63,7 +64,8 @@ sudo hostnamectl set-hostname srv-vm1-pc2
 sudo apt update       # atualiza as definições e versões de pacotes/bibliotecas dos repositórios do ubuntu
 ```
 
-![WhatsApp Image 2022-08-09 at 16 27 08](https://user-images.githubusercontent.com/103062784/184228903-ba58cd57-6ce8-4181-9413-5636a9904f43.jpeg)
+![WhatsApp Image 2022-08-23 at 16 14 59](https://user-images.githubusercontent.com/103062784/186413396-45f409e1-5d36-452d-9df2-1d38fe4733dc.jpeg)
+
 
 ```shell
 sudo apt upgrade -y   # atualiza os pacotes com as novas definições e versões 
