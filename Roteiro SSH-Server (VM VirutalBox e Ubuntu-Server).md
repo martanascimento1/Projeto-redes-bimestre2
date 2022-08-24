@@ -118,18 +118,21 @@ netstat -an | grep LISTEN.  #verifique as conexões TCP na porta 22 se está com
 ```shell
 sudo ufw status
 ```
-![WhatsApp Image 2022-08-09 at 17 59 27](https://user-images.githubusercontent.com/103062784/184233376-baf13abf-44ae-400e-976c-eea5182f49b4.jpeg)
+
+![WhatsApp Image 2022-08-23 at 16 23 49](https://user-images.githubusercontent.com/103062784/186414205-82eeb75b-5aff-4ec1-ba27-2ceb5806c88a.jpeg)
 
 
 ```shell
 sudo ufw allow ssh.    # ativa o ssh no firewall UFW do ubuntu.
 ```
-![WhatsApp Image 2022-08-09 at 17 59 27 (1)](https://user-images.githubusercontent.com/103062784/184233489-461048d0-50a7-439f-91ff-05fb881d7da1.jpeg)
+![WhatsApp Image 2022-08-23 at 16 24 44](https://user-images.githubusercontent.com/103062784/186414270-6a978c7e-67b0-4d62-8db7-fdbbcf2b7670.jpeg)
+
 
 ```shell
 sudo ufw status
 ```
-![WhatsApp Image 2022-08-09 at 17 59 28](https://user-images.githubusercontent.com/103062784/184233663-219d022e-1499-4f97-ae3b-49e3223a220f.jpeg)
+![WhatsApp Image 2022-08-23 at 16 26 45](https://user-images.githubusercontent.com/103062784/186414344-4ebb1657-c32c-4d6b-87c0-0a81b8ee1170.jpeg)
+
 
 * Ativar o firewall:
 ```shell 
@@ -140,7 +143,8 @@ sudo ufw enable
 
 ### Refazendo a topologia de rede da Prática
 * Coloque as configurações de interface de rede para o modo bridge em cada VM no VirtualBox:
-![WhatsApp Image 2022-08-11 at 17 22 37](https://user-images.githubusercontent.com/103062784/184235445-1e172bac-74d3-4f1e-97d6-c45393859610.jpeg)
+
+![WhatsApp Image 2022-08-23 at 16 28 59](https://user-images.githubusercontent.com/103062784/186414445-dd10b3ac-59ec-4df9-a0f4-00e0ed347740.jpeg)
 
 
 * Ative o endereçamento IP estático .
@@ -148,7 +152,8 @@ sudo ufw enable
   sudo nano /etc/netplan/01-netcfg.yaml
   ```
   
-![WhatsApp Image 2022-08-11 at 17 31 34](https://user-images.githubusercontent.com/103062784/184238748-52c18fd1-3991-4ad2-be89-71995015bd81.jpeg)
+![WhatsApp Image 2022-08-23 at 16 31 49](https://user-images.githubusercontent.com/103062784/186414529-9b8544c3-a7de-4096-8f9a-e281101d3b56.jpeg)
+
 
 ### Acessar uma VM remotamente:
 
@@ -157,7 +162,8 @@ sudo ufw enable
    * de: srv-vm1-pc1    
    * para: srv-vm2-pc1
    
-   ![WhatsApp Image 2022-08-09 at 17 59 29](https://user-images.githubusercontent.com/103062784/184239317-eab51b35-c558-4a92-a8de-4a6109e033af.jpeg)
+  
+![WhatsApp Image 2022-08-23 at 16 41 49 (1)](https://user-images.githubusercontent.com/103062784/186414779-64a7fe71-b0b9-44be-a538-96e6cebb7a47.jpeg)
 
 
 ```shell
@@ -170,13 +176,14 @@ ssh administrador@192.168.24.4
 1) Acessar a partir da VM1-PC1 todas as outras via ssh:
 2) Criar um usuário (use o comando ``sudo adduser``) .
 
-![WhatsApp Image 2022-08-09 at 17 59 31 (1)](https://user-images.githubusercontent.com/103062784/184239940-20056125-d319-4f04-a0e9-137eecaa4ad0.jpeg)
 
+
+![WhatsApp Image 2022-08-24 at 09 14 23](https://user-images.githubusercontent.com/103062784/186415648-54bd9143-9ec7-40bc-a607-62595ebd4204.jpeg)
 
 
 4) Façalogin via ssh nos servidores usando cada usuário criado.
 
 
-![WhatsApp Image 2022-08-09 at 17 59 31](https://user-images.githubusercontent.com/103062784/184239878-50283f8d-3469-41bd-bd31-33ad5533aadc.jpeg)
-![WhatsApp Image 2022-08-12 at 15 28 46](https://user-images.githubusercontent.com/103062784/184421432-324a5a5d-8fd6-4abc-9034-157b4da635f3.jpeg)
+![WhatsApp Image 2022-08-23 at 16 47 44](https://user-images.githubusercontent.com/103062784/186415777-2f181263-37f5-4bd5-a3c9-7c1187207b67.jpeg)
+![WhatsApp Image 2022-08-23 at 16 49 03](https://user-images.githubusercontent.com/103062784/186415856-4afec1b1-f0d7-4414-b90f-b0cf8ab5ac1d.jpeg)
 
