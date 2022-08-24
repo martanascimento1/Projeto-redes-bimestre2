@@ -31,7 +31,7 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
    
 * SSH
 
-   - [IP]()
+   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/bd2371c4bb087582dc7d79a340b7c569e8c3339e/Testes%20ssh%20IP.md)
    - [HOSTNAME]()
    - [FQDN]()
    - [ALISE]()
