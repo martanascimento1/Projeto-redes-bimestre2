@@ -156,7 +156,7 @@ sudo ufw enable
 
 
 * Ative o endereçamento IP estático .
-* 
+
 ```shell
   sudo nano /etc/netplan/01-netcfg.yaml
   ```
@@ -187,7 +187,8 @@ ssh administrador@192.168.24.4
 ![WhatsApp Image 2022-08-24 at 09 14 23](https://user-images.githubusercontent.com/103062784/186415648-54bd9143-9ec7-40bc-a607-62595ebd4204.jpeg)
 
 
-4) Façalogin via ssh nos servidores usando cada usuário criado.
+4) Faça login via ssh nos servidores usando cada usuário criado.
+
 * Use:
  ```shell
   ssh marta@192.168.24.3
