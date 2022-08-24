@@ -20,3 +20,18 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 # Como configurar o teclado da VM para pt-BR?
 * [Reconfiguração de teclado para pt-BR ABNT2](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/76363595e16db58f6040731d6a9aa001ae114c58/Reconfigura%C3%A7%C3%A3o%20do%20teclado.md)
 
+# Testes
+
+* [ping]()
+
+   - [IP]()
+   - [HOSTNAME]()
+   - [FQDN]()
+   - [ALISE]()
+   
+* [SSH]()
+
+   - [IP]()
+   - [HOSTNAME]()
+   - [FQDN]()
+   - [ALISE]()
