@@ -42,7 +42,8 @@
 ![184224800-9b10b210-cf25-4103-972b-63c53931d3b6](https://user-images.githubusercontent.com/103062733/184265457-9db87a39-4c37-44e4-8360-29a05729490c.jpeg)
 
 
-![WhatsApp Image 2022-08-11 at 21 40 18](https://user-images.githubusercontent.com/103062733/184265464-4c5b0239-9dff-4e53-bd7e-d7f945308fc7.jpeg)
+
+![WhatsApp Image 2022-08-10 at 14 25 41 (1)](https://user-images.githubusercontent.com/103062733/186414508-42870a63-d357-47ff-8731-b8e6fd1263c9.png)
 
 ### Configurando as NICs das VMs
 
