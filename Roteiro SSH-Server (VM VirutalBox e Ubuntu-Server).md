@@ -165,7 +165,7 @@ sudo ufw enable
   
 ![WhatsApp Image 2022-08-23 at 16 41 49 (1)](https://user-images.githubusercontent.com/103062784/186414779-64a7fe71-b0b9-44be-a538-96e6cebb7a47.jpeg)
 
-
+* Use:
 ```shell
 ssh administrador@192.168.24.4
 ```
@@ -183,7 +183,9 @@ ssh administrador@192.168.24.4
 
 4) Façalogin via ssh nos servidores usando cada usuário criado.
 
-
+ ```shell
+  ssh marta@192.168.24.3
+  ```
 ![WhatsApp Image 2022-08-23 at 16 47 44](https://user-images.githubusercontent.com/103062784/186415777-2f181263-37f5-4bd5-a3c9-7c1187207b67.jpeg)
 ![WhatsApp Image 2022-08-23 at 16 49 03](https://user-images.githubusercontent.com/103062784/186415856-4afec1b1-f0d7-4414-b90f-b0cf8ab5ac1d.jpeg)
 
