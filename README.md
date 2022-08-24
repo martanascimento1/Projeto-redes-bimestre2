@@ -22,14 +22,14 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 
 # Testes
 
-* [ping]()
+* PING
 
    - [IP]()
    - [HOSTNAME]()
    - [FQDN]()
    - [ALISE]()
    
-* [SSH]()
+* SSH
 
    - [IP]()
    - [HOSTNAME]()
