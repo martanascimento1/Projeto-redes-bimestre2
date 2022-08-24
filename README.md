@@ -15,6 +15,7 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 # Visualização do ambiente de rede
 * [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b03207876eadc7c9133d2d46ed66b0061d89d391/Tabela%20de%20nomes%20e%20IPs.md)
 * [Configuração de hardware](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/084c48a88fededced9e5ad4c19d85123e9a7d723/Configura%C3%A7%C3%A3o%20de%20hardware.md)
+* [Definições dos usuários](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/44e1769c6366aa9a1179eb421b22a9b7cebb23f7/Defini%C3%A7%C3%B5es%20de%20usu%C3%A1rios.md)
 
 # Como configurar o teclado da VM para pt-BR?
 * [Reconfiguração de teclado para pt-BR ABNT2](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/76363595e16db58f6040731d6a9aa001ae114c58/Reconfigura%C3%A7%C3%A3o%20do%20teclado.md)
