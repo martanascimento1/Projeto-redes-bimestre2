@@ -33,12 +33,12 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 * formato: ``sudo hostnamectl set-hostname <hostname>``
 
 * NA VM1-PC1 executar:
+
 ```shell
 sudo hostnamectl set-hostname srv-vm1-pc2
 ```
-![WhatsApp Image 2022-08-09 at 16 27 05](https://user-images.githubusercontent.com/103062784/184226890-e578f926-69a9-452c-88dc-7ba97191a5b3.jpeg)
 
-
+![WhatsApp Image 2022-08-24 at 08 58 52](https://user-images.githubusercontent.com/103062784/186412988-fe47f99d-a590-490c-b368-ce7a81eb1b91.jpeg)
 
 
 ## Instalar o servidor SSH
