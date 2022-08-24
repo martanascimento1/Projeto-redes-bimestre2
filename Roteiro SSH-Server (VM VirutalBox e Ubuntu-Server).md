@@ -86,7 +86,7 @@ systemctl status ssh
 
 ![WhatsApp Image 2022-08-23 at 16 18 40](https://user-images.githubusercontent.com/103062784/186413701-561f02f7-3a54-467d-aa6a-72092ab9c166.jpeg)
 
-*Para instalar:
+* Para instalar:
 
 
 ``` shell
@@ -108,7 +108,7 @@ systemctl status ssh
 ### Verificar o status das portas do sistema
 
 * Verificando se as conexões TCP na porta 22 está como LINSTENING:
-* 
+
 ``` shell
 netstat -an | grep LISTEN.  
 ```
