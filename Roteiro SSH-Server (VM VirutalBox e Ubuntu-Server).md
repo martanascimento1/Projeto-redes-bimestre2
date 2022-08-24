@@ -161,14 +161,16 @@ sudo ufw enable
 * Fazendo o login 
    * de: srv-vm1-pc1    
    * para: srv-vm2-pc1
+   * 
+```shell
+ssh administrador@192.168.24.4
+```
    
   
 ![WhatsApp Image 2022-08-23 at 16 41 49 (1)](https://user-images.githubusercontent.com/103062784/186414779-64a7fe71-b0b9-44be-a538-96e6cebb7a47.jpeg)
 
-* Use:
-```shell
-ssh administrador@192.168.24.4
-```
+
+
 
 
 # Tarefa final:
@@ -182,7 +184,7 @@ ssh administrador@192.168.24.4
 
 
 4) Façalogin via ssh nos servidores usando cada usuário criado.
-
+* Use:
  ```shell
   ssh marta@192.168.24.3
   ```
