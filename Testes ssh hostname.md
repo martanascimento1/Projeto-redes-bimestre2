@@ -28,6 +28,6 @@
 ![WhatsApp Image 2022-08-24 at 14 43 49 (2)](https://user-images.githubusercontent.com/103062733/186660068-edd9270a-6ff9-4909-aade-942f2fe36627.jpeg)
 
 
-*Figura 8:* A imagem mostra o teste de SSH para o FQDN do PC5-VM2.
+*Figura 8:* A imagem mostra o teste de SSH para o FQDN do PC4-VM2.
 ![WhatsApp Image 2022-08-24 at 14 58 24](https://user-images.githubusercontent.com/103062733/186660076-f45c5ddc-67af-4827-b0ad-ad216b249125.jpeg)
 
