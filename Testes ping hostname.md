@@ -29,7 +29,7 @@
 
 *Figura 7:* A imagem mostra o ping realizado para o hostname grupo1-vm1-pc4 do PC4.
 
-[WhatsApp Image 2022-08-24 at 14 24 30](https://user-images.githubusercontent.com/98924290/186487252-53fcfdfa-d64a-4451-b7ec-2f0b6849b288.jpeg)
+![WhatsApp Image 2022-08-24 at 14 24 30](https://user-images.githubusercontent.com/98924290/186487252-53fcfdfa-d64a-4451-b7ec-2f0b6849b288.jpeg)
 
 *Figura 8:* A imagem mostra o ping realizado para o hostname grupo1-vm2-pc4 do PC4.
 
