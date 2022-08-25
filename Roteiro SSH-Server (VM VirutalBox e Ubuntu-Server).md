@@ -196,3 +196,4 @@ ssh administrador@192.168.24.4
 ![WhatsApp Image 2022-08-23 at 16 47 44](https://user-images.githubusercontent.com/103062784/186415777-2f181263-37f5-4bd5-a3c9-7c1187207b67.jpeg)
 ![WhatsApp Image 2022-08-23 at 16 49 03](https://user-images.githubusercontent.com/103062784/186415856-4afec1b1-f0d7-4414-b90f-b0cf8ab5ac1d.jpeg)
 
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/564319c685f6ec504080630dc9989612b4fc7b61/README.md)
