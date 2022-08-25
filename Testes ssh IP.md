@@ -40,6 +40,6 @@
 ![WhatsApp Image 2022-08-24 at 15 13 31](https://user-images.githubusercontent.com/103062733/186669116-c1c29048-23b0-4757-8078-795e1158ce15.jpeg)
 
 
-[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2)
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/372cbc216c101e3220fb88247424560dca27a668/README.md)
 
 
