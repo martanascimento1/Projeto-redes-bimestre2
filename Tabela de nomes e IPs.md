@@ -37,3 +37,4 @@ Tabela 2: definições de endereços IPs da rede e nome dos hosts
 | VM2-PC4-julia     | 192.168.24.8   |  grupo1-vm2-pc4 |  victoria.grupo1-924.net  |     vic        |
 ----------------------------------------------------------------------------------------------------
 ```
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/564319c685f6ec504080630dc9989612b4fc7b61/README.md)
