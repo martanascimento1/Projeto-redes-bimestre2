@@ -24,7 +24,7 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 
 * PING
 
-   - [IP]()
+   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/72b983ad4ee81b4bd278474dd3496ec8741cf415/Testes%20ping%20IP.md)
    - [HOSTNAME]()
    - [FQDN]()
    - [ALIASE]()
