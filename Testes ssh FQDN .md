@@ -31,3 +31,5 @@
 *Figura 8:* A imagem mostra o teste de SSH para o FQDN do PC4-VM2.
 ![WhatsApp Image 2022-08-24 at 14 58 24](https://user-images.githubusercontent.com/103062733/186660076-f45c5ddc-67af-4827-b0ad-ad216b249125.jpeg)
 
+
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/564319c685f6ec504080630dc9989612b4fc7b61/README.md)
