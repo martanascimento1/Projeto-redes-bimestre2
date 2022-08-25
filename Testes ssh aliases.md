@@ -4,6 +4,7 @@
 ![WhatsApp Image 2022-08-24 at 15 03 55](https://user-images.githubusercontent.com/103062733/186663227-f8f19c18-95cf-41f5-8a48-01457832394e.jpeg)
 
 
+
 *Figura 2:* A imagem mostra o teste de SSH para a ALIASE do PC1-VM2
 ![WhatsApp Image 2022-08-24 at 15 04 41](https://user-images.githubusercontent.com/103062733/186663255-44df9b91-7972-4874-bd44-d42fc12c2bd3.jpeg)
 
