@@ -31,3 +31,5 @@
 *Figura 8:* A imagem mostra o teste de ping realizado para a máquina virtual com o IP 192.168.24.8 do PC4.
 
 ![WhatsApp Image 2022-08-24 at 14 15 43](https://user-images.githubusercontent.com/98924290/186484677-22eff1e8-6810-4bfb-b474-cd68dee04d8f.jpeg)
+
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/564319c685f6ec504080630dc9989612b4fc7b61/README.md)
