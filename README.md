@@ -24,7 +24,7 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 
 * PING
 
-   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/72b983ad4ee81b4bd278474dd3496ec8741cf415/Testes%20ping%20IP.md)
+   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testes%20ping%20IP.md)
    - [HOSTNAME](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/1235e253c905d31425ba083d657c5f6633429da8/Testes%20ping%20hostname.md)
    - [FQDN](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/7880ba6e7c366cbc0b7f8f1e0aa668cc0059c8e8/Testes%20ping%20FQDN.md)
    - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/caffce9aa79b70131d71d1807ba5f69220cd190d/Testes%20ping%20alises.md)
