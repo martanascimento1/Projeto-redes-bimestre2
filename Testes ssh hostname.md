@@ -1,39 +1,44 @@
 # Testes do ssh para os hostname de cada máquina virtual.
 
-*Figura 1:* A imagem mostra o ssh realizado para o FQDN do PC1.
+*Figura 1:* A imagem mostra o ssh realizado para o HOSTNAME do PC1-VM1.
 
-![WhatsApp Image 2022-08-24 at 14 17 34](https://user-images.githubusercontent.com/98924290/186486725-c1a5c03a-8e27-4c54-b99a-493e4a376abb.jpeg)
-
-*Figura 2:* A imagem mostra o ssh realizado para o FQDN do PC1.
-
-![WhatsApp Image 2022-08-24 at 14 18 30](https://user-images.githubusercontent.com/98924290/186486793-3e307328-af68-4307-a22a-dcf9b18084f4.jpeg)
-
-*Figura 3:* A imagem mostra o ssh realizado para o FQDN do PC2.
-
-![WhatsApp Image 2022-08-24 at 14 19 23](https://user-images.githubusercontent.com/98924290/186486923-5a3cc145-0544-4f52-be77-491fee639ed3.jpeg)
-
-*Figura 4:* A imagem mostra o ssh realizado para o FQDN do PC2.
-
-![WhatsApp Image 2022-08-24 at 14 20 43](https://user-images.githubusercontent.com/98924290/186486990-4ad7eb5d-447f-4edf-a156-90dcf70001ec.jpeg)
+![WhatsApp Image 2022-08-24 at 14 34 44](https://user-images.githubusercontent.com/103062733/186665113-d49ddcc4-aec7-4757-a9ff-38981968bfc9.jpeg)
 
 
-*Figura 5:* A imagem mostra o ssh realizado para o FQDN do PC3.
+*Figura 2:* A imagem mostra o ssh realizado para o HOSTNAME do PC1-VM2.
 
-![WhatsApp Image 2022-08-24 at 14 21 41](https://user-images.githubusercontent.com/98924290/186487112-d8e8196d-ed94-452f-802d-45638b775d3a.jpeg)
-
-
-*Figura 6:* A imagem mostra o ssh realizado para o FQDN do PC3.
-
-![WhatsApp Image 2022-08-24 at 14 23 17](https://user-images.githubusercontent.com/98924290/186487172-63338a32-3006-47f3-8c67-6a4d15ef9a8d.jpeg)
+![WhatsApp Image 2022-08-24 at 14 36 42](https://user-images.githubusercontent.com/103062733/186665124-646123f1-ae48-4ae4-b74b-8486e838ffa5.jpeg)
 
 
-*Figura 7:* A imagem mostra o ssh realizado para o FQDN do PC4.
+*Figura 3:* A imagem mostra o ssh realizado para o HOSTNAME do PC2-VM1.
 
-![WhatsApp Image 2022-08-24 at 14 24 30](https://user-images.githubusercontent.com/98924290/186487252-53fcfdfa-d64a-4451-b7ec-2f0b6849b288.jpeg)
+![WhatsApp Image 2022-08-24 at 14 34 51](https://user-images.githubusercontent.com/103062733/186665229-d9235636-00b6-4c19-9e37-c2a32e080462.jpeg)
 
-*Figura 8:* A imagem mostra o ssh realizado para o FQDN do PC4.
 
-![WhatsApp Image 2022-08-24 at 14 25 10](https://user-images.githubusercontent.com/98924290/186487378-ace24c5d-85e2-4cbd-8cd7-73eab997028d.jpeg)
+*Figura 4:* A imagem mostra o ssh realizado para o HOSTNAME do PC2-VM2.
+
+![WhatsApp Image 2022-08-24 at 14 37 13](https://user-images.githubusercontent.com/103062733/186665240-9aac7ba8-5ceb-4883-864f-f38dba15df79.jpeg)
+
+
+*Figura 5:* A imagem mostra o ssh realizado para o HOSTNAME do PC3-VM1.
+
+![WhatsApp Image 2022-08-24 at 14 36 07](https://user-images.githubusercontent.com/103062733/186665340-91b15da1-8c06-402a-a361-c6a56af94dfe.jpeg)
+
+
+*Figura 6:* A imagem mostra o ssh realizado para o HOSTNAME do PC3-VM2.
+
+![WhatsApp Image 2022-08-24 at 14 37 27](https://user-images.githubusercontent.com/103062733/186665355-59f49294-69b3-4c6f-9e59-f98727b27a2a.jpeg)
+
+
+*Figura 7:* A imagem mostra o ssh realizado para o HOSTNAME do PC4-VM1.
+
+![WhatsApp Image 2022-08-24 at 14 36 42 (1)](https://user-images.githubusercontent.com/103062733/186665429-1ecc867e-d10d-4b44-bf9a-4221c26c214d.jpeg)
+
+
+*Figura 8:* A imagem mostra o ssh realizado para o HOSTNAME do PC4-VM2.
+
+![WhatsApp Image 2022-08-24 at 14 37 43](https://user-images.githubusercontent.com/103062733/186665444-ce4f191d-e847-4d4e-91a7-56908fcd0ec2.jpeg)
+
 
 [Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/564319c685f6ec504080630dc9989612b4fc7b61/README.md)
 
