@@ -32,4 +32,4 @@
 ![WhatsApp Image 2022-08-24 at 14 58 24](https://user-images.githubusercontent.com/103062733/186660076-f45c5ddc-67af-4827-b0ad-ad216b249125.jpeg)
 
 
-[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2)
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/372cbc216c101e3220fb88247424560dca27a668/README.md)
