@@ -1,4 +1,4 @@
-# Testes do ssh para os FQDN de cada máquina virtual.
+# Testes do ssh para os hostname de cada máquina virtual.
 
 *Figura 1:* A imagem mostra o ssh realizado para o FQDN do PC1.
 
