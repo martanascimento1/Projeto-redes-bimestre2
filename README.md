@@ -34,4 +34,4 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
    - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/7d1f036c6915537cc71697c67cba151c3ec0e726/Testes%20ssh%20IP.md)
    - [HOSTNAME](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/9a51e99d894d9ce11f0dd6cbf6c402d7ddc2683e/Testes%20ssh%20hostname.md)
    - [FQDN](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/44ac3691a602a86c5a29721231d68d9a1f577080/Testes%20ssh%20FQDN%20.md)
-   - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/56226e2bac860b4426b66ed43b94e8e9f68741ce/Testes%20ssh%20aliases.md)
+   - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/0cb45a60a4e2e1f8d1883c368c2b0bd6f799223a/Testes%20ssh%20aliases.md)
