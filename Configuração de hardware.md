@@ -35,7 +35,7 @@
 -------------------------------------------------------------------------------------------------
 ```
 
-# Configuração de hardware switch
+# Configuração de hardware do switch
 
 *Tabela 5:* Definições de configuração de hardware do switch.
 ```
