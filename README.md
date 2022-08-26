@@ -15,10 +15,9 @@ Maria Izabel Lemos da Silva
 
 Marta Mirely Nascimento dos Santos
 
+**4° ano - Curso Técnico em Informática (Turma 924)*
 
-*4° ano - Curso Técnico em Informáticam (Turma 924)*
-
-*Orientador: Alaelson Jatobá*
+**Orientador: Alaelson Jatobá**
 
 # Objetivo
 
