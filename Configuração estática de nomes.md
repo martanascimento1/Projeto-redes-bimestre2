@@ -32,7 +32,8 @@
 192.168.24.7 grupo1-vm1-pc4 julia.grupo1-924.ifalara.net    juju
 192.168.24.8 grupo1-vm2-pc4 victoria.grupo1-924.ifalara.net vic
 ```
-![WhatsApp Image 2022-08-11 at 16 06 24](https://user-images.githubusercontent.com/103062866/184416907-77860b2e-cfbf-4131-982b-b185a5c29d4d.jpeg)
+![WhatsApp Image 2022-08-26 at 14 50 39](https://user-images.githubusercontent.com/103062784/186963264-5a97cb8f-eedc-4d96-8c6f-f2db15121c91.jpeg)
+
 
 >**Observação**: observa-se que cada um dos servidores recebeu aliases além de seus nomes próprios e FQDNs. 
 >* ``grupo1-vm1-pc1`` foi mapeado para o nome ``bel``
@@ -66,7 +67,8 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 ```shell
 sudo nano /etc/hosts
 ```
-![WhatsApp Image 2022-08-11 at 16 06 28](https://user-images.githubusercontent.com/103062866/184416974-802c9882-9cad-4d00-85af-6d40d4557f37.jpeg)
+![WhatsApp Image 2022-08-26 at 14 50 39](https://user-images.githubusercontent.com/103062784/186963294-87ff5fe9-cb07-49de-9b26-8bc84f3bb73b.jpeg)
+
 
 * Exemplo do arquivo /etc/hosts na VM1:
 
