@@ -21,7 +21,7 @@ Marta Mirely Nascimento dos Santos
 
 # Objetivo
 
-O principal objetivo do trabalho desenvolvido é realizar uma rede de máquinas virtuais e físicas, entre 8 VMs e 4 computadores. Visando o aprendizado de uma topologia de rede lógica e física, abordando conceitos debatidos em sala de aula, tais quais como a montagem da prórpria rede física como o entendimento sobre como funcionamento de uma rede LAN de computadores, onde esses computadores trocam informações.
+O principal objetivo do trabalho desenvolvido é realizar uma rede de máquinas virtuais e físicas, entre 8 VMs e 4 computadores. Visando o aprendizado de uma topologia de rede lógica e física, abordando conceitos debatidos em sala de aula, tais como a montagem da prórpria rede física e como o entendimento sobre o funcionamento de uma rede LAN de computadores, em que esses computadores trocam informações.
 
 # Visualização do ambiente de rede
 * [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b03207876eadc7c9133d2d46ed66b0061d89d391/Tabela%20de%20nomes%20e%20IPs.md)
