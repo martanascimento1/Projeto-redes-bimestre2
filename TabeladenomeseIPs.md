@@ -37,4 +37,4 @@
 | VM2-PC4-julia     | 192.168.24.8   |  grupo1-vm2-pc4 |  victoria.grupo1-924.ifalara.net  |     vic        |
 -------------------------------------------------------------------------------------------------------------
 ```
-[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/372cbc216c101e3220fb88247424560dca27a668/README.md)
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/README.md)
