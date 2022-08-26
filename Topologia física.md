@@ -10,7 +10,7 @@
 
 2 - Um switch.
 
-*Figura 2:* A imagem mostra um switch que foi utilizado para as práticas.
+*Figura 2:* A imagem mostra o switch que foi utilizado para as práticas,o qual tem 8 portas de broadcast.
 
 ![WhatsApp Image 2022-08-25 at 08 52 34](https://user-images.githubusercontent.com/98924290/186727019-bc796bc1-e810-4433-b08d-6a3e84316243.jpeg)
 
