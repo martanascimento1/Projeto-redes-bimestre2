@@ -2,7 +2,7 @@
 # Configuração de uma rede ponto a ponto com duas máquinas virtuais
 
 * Abrir terminal
-* logar com o usuário ``redes`` senha: admin@Lab92
+* logar com o usuário ``redes``
 ```bash
  su redes
 ```
@@ -53,7 +53,6 @@
 ### Fazendo login nas VMs
 
 * Usuário da VM: ``administrador``
-* Senha da VM: ``adminifal``
 
 <p><center> Figura 3: Telas das duas VMs em execução</center></p>   
  
