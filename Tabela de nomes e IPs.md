@@ -1,6 +1,6 @@
 # Configuração dos endereços IPs
 
-Tabela 1: Definições de endereços IPs das redes:
+*Tabela 1:* Definições de endereços IPs das redes:
 
 ```
 --------------------------------------
@@ -22,7 +22,7 @@ Tabela 1: Definições de endereços IPs das redes:
 
 # Configuração do serviço de nomes estáticos.
 
-Tabela 2: definições de endereços IPs da rede e nome dos hosts
+*Tabela 2:* Definições de endereços IPs da rede e nome dos hosts
 ```
 -------------------------------------------------------------------------------------------------------------
 |     DESCRICAO     |       IP        |    hostname    |                FQDN               |     aliase     |             
