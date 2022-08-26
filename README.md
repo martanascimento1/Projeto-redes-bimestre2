@@ -40,23 +40,23 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 * [6. Configuração estática de nomes](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Configura%C3%A7%C3%A3oest%C3%A1ticadenomes.md)
 
 # Como configurar o teclado da VM para pt-BR?
-* [Reconfiguração de teclado para pt-BR ABNT2](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/76363595e16db58f6040731d6a9aa001ae114c58/Reconfigura%C3%A7%C3%A3o%20do%20teclado.md)
+* [Reconfiguração de teclado para pt-BR ABNT2](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Reconfigura%C3%A7%C3%A3odoteclado.md)
 
 # Testes
 
 * PING
 
-   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testes%20ping%20IP.md)
-   - [HOSTNAME](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testes%20ping%20hostname.md)
-   - [FQDN](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testes%20ssh%20FQDN%20.md)
-   - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testes%20ping%20alises.md)
+   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/TestespingIP.md)
+   - [HOSTNAME](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/TestespingFQDN.md)
+   - [FQDN](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/TestespingFQDN.md)
+   - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testespingalises.md)
    
 * SSH
 
-   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/a2ccd3b777f453b9289295c514339db032aaeffc/Testes%20ssh%20IP.md)
-   - [HOSTNAME](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/d5e64a2b334fd70838803c50d7ebd87cbad62bff/Testes%20ssh%20hostname.md)
-   - [FQDN](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/7015f1eb8d6b3d4ded5f5efa59273099d8788293/Testes%20ssh%20FQDN%20.md)
-   - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/0cb45a60a4e2e1f8d1883c368c2b0bd6f799223a/Testes%20ssh%20aliases.md)
+   - [IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/TestessshIP.md)
+   - [HOSTNAME](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testessshhostname.md)
+   - [FQDN](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/TestessshFQDN%20.md)
+   - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/Testessshaliases.md)
 
 # Considerações finais
 
