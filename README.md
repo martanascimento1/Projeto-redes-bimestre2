@@ -23,6 +23,12 @@ Marta Mirely Nascimento dos Santos
 
 O principal objetivo do trabalho desenvolvido é realizar uma rede de máquinas virtuais e físicas, entre 8 VMs e 4 computadores. Visando o aprendizado de uma topologia de rede lógica e física, abordando conceitos debatidos em sala de aula, tais quais como a montagem da prórpria rede física como o entendimento sobre como funcionamento de uma rede LAN de computadores, onde esses computadores trocam informações.
 
+# Visualização do ambiente de rede
+* [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b03207876eadc7c9133d2d46ed66b0061d89d391/Tabela%20de%20nomes%20e%20IPs.md)
+* [Configuração de hardware](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b2e909cdd00c3f3a4d0aa55bd5be5248afb1d046/Configura%C3%A7%C3%A3o%20de%20hardware.md)
+* [Definições dos usuários](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/44e1769c6366aa9a1179eb421b22a9b7cebb23f7/Defini%C3%A7%C3%B5es%20de%20usu%C3%A1rios.md)
+* [Topologia física](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/44e1769c6366aa9a1179eb421b22a9b7cebb23f7/Defini%C3%A7%C3%B5es%20de%20usu%C3%A1rios.md)
+
 # Roteiro
 Clique no link para navegar até o roteiro com os comandos utilizados para realizar as etapas da configuração de rede.
 
@@ -32,11 +38,6 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
 * [4. Roteiro SSH Server (VMs Virtual Box e Ubuntu-Server) ](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/3c9d1eb6f0378705182f794f2363fb533414cc3f/Roteiro%20SSH-Server%20(VM%20VirutalBox%20e%20Ubuntu-Server).md)
 * [5. Acesso SSH com (Host Only) no Virtual Box ](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/bca33fba5d92214da2b48d5f7179e9ec5ecc0ff3/Acesso%20Remoto%20SSH%20com%20(Host%20Only)%20no%20Virtual%20Box.md)
 * [6. Configuração estática de nomes](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/635cf13f1ac80f162d1b658a2e1cb1fa1475dee1/Configura%C3%A7%C3%A3o%20est%C3%A1tica%20de%20nomes.md)
-
-# Visualização do ambiente de rede
-* [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b03207876eadc7c9133d2d46ed66b0061d89d391/Tabela%20de%20nomes%20e%20IPs.md)
-* [Configuração de hardware](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b2e909cdd00c3f3a4d0aa55bd5be5248afb1d046/Configura%C3%A7%C3%A3o%20de%20hardware.md)
-* [Definições dos usuários](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/44e1769c6366aa9a1179eb421b22a9b7cebb23f7/Defini%C3%A7%C3%B5es%20de%20usu%C3%A1rios.md)
 
 # Como configurar o teclado da VM para pt-BR?
 * [Reconfiguração de teclado para pt-BR ABNT2](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/76363595e16db58f6040731d6a9aa001ae114c58/Reconfigura%C3%A7%C3%A3o%20do%20teclado.md)
