@@ -24,7 +24,7 @@ Marta Mirely Nascimento dos Santos
 O principal objetivo do trabalho desenvolvido é realizar uma rede de máquinas virtuais e físicas, entre 8 VMs e 4 computadores. Visando o aprendizado de uma topologia de rede lógica e física, abordando conceitos debatidos em sala de aula, tais como a montagem da prórpria rede física e como o entendimento sobre o funcionamento de uma rede LAN de computadores, em que esses computadores trocam informações.
 
 # Visualização do ambiente de rede
-* [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b03207876eadc7c9133d2d46ed66b0061d89d391/Tabela%20de%20nomes%20e%20IPs.md)
+* [Tabela de nomes e IP](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/TabeladenomeseIPs.md)
 * [Configuração de hardware](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/b2e909cdd00c3f3a4d0aa55bd5be5248afb1d046/Configura%C3%A7%C3%A3o%20de%20hardware.md)
 * [Definições dos usuários](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/44e1769c6366aa9a1179eb421b22a9b7cebb23f7/Defini%C3%A7%C3%B5es%20de%20usu%C3%A1rios.md)
 * [Topologia física](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/44e1769c6366aa9a1179eb421b22a9b7cebb23f7/Defini%C3%A7%C3%B5es%20de%20usu%C3%A1rios.md)
