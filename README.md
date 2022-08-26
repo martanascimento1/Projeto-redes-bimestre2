@@ -2,6 +2,24 @@
 
 Repositório para o trabalho das disciplinas de Serviços de Redes e Projeto e Infraestrutura de Redes, cujo objetivo é a configuração e execução de um ambiente de rede virtualizada.
 
+# Grupo 1
+
+**IFAL - Instituto Federal de Educação, Ciência e Tecnológia de Alagoas**
+**Campus Arapiraca**
+
+Débora Nycolli Jovino dos Santos
+Júlia Victória Rodrigues de Melo
+Maria Izabel Lemos da Silva
+Marta Mirely Nascimento dos Santos
+
+*4° ano - Curso Técnico em Informáticam (Turma 924)*
+
+*Orientador: Alaelson Jatobá*
+
+# Objetivo
+
+O principal objetivo do trabalho desenvolvido é realizar uma rede de máquinas virtuais e físicas, entre 8 VMs e 4 computadores. Visando o aprendizado de uma topologia de rede lógica e física, abordando conceitos debatidos em sala de aula, tais quais como a montagem da prórpria rede física como o entendimento sobre como funcionamento de uma rede LAN de computadores, onde esses computadores trocam informações.
+
 # Roteiro
 Clique no link para navegar até o roteiro com os comandos utilizados para realizar as etapas da configuração de rede.
 
@@ -35,3 +53,7 @@ Clique no link para navegar até o roteiro com os comandos utilizados para reali
    - [HOSTNAME](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/d5e64a2b334fd70838803c50d7ebd87cbad62bff/Testes%20ssh%20hostname.md)
    - [FQDN](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/7015f1eb8d6b3d4ded5f5efa59273099d8788293/Testes%20ssh%20FQDN%20.md)
    - [ALIASE](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/0cb45a60a4e2e1f8d1883c368c2b0bd6f799223a/Testes%20ssh%20aliases.md)
+
+# Considerações finais
+
+Ao fim do projeto do projeto foi possível visualizar um atopoloagia de rede formada por quatro computadores, quatro cabos de rede de par trançado (um quinto com acesso a rede de internet), um switch com 8 domínios de brodcast que trocavam informaçãoes através dos comandos ping e ssh, que permitiam uma conexão entre os computadores e as Máquinas Virtuais. Podendo-se acessar todas as máquinas que estavam ligadas a rede.
