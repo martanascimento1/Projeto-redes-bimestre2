@@ -7,10 +7,10 @@ Repositório para o trabalho das disciplinas de Serviços de Redes e Projeto e I
 **IFAL - Instituto Federal de Educação, Ciência e Tecnológia de Alagoas**
 **Campus Arapiraca**
 
-Débora Nycolli Jovino dos Santos
-Júlia Victória Rodrigues de Melo
-Maria Izabel Lemos da Silva
-Marta Mirely Nascimento dos Santos
+Débora Nycolli Jovino dos Santos//
+Júlia Victória Rodrigues de Melo//
+Maria Izabel Lemos da Silva//
+Marta Mirely Nascimento dos Santos//
 
 *4° ano - Curso Técnico em Informáticam (Turma 924)*
 
