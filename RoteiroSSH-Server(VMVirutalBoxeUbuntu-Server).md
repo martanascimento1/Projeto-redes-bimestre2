@@ -7,8 +7,6 @@
 ### Login nas VMs
 
 * Usuário da VM: ``administrador``
-* Senha da VM: ``adminifal``
-
 
 ```
 Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
