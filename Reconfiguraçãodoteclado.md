@@ -46,5 +46,5 @@ localect status # verifique a saída de tela
 
 * Reinicie a VM com ``sudo reboot``
 
-[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/372cbc216c101e3220fb88247424560dca27a668/README.md)
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/README.md)
 
