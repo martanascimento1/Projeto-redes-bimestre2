@@ -1,5 +1,6 @@
 # Configuração de hardware VMs
 
+*Tabela 3:* Definições de configuração de hardware das VMs (Máquinas Virtuais).
 ```
 ------------------------------------------------------------------------------------------
 |     DESCRIÇÃO     |       IP       |     MÉMORIA   |   PROCESSADOR  |   ESPAÇO EM DISCO |
@@ -19,6 +20,7 @@
 ```
 # Configuração de hardware rede física
 
+*Tabela 4:* Definições de configuração de hardware dos computadores.
 ```
 -------------------------------------------------------------------------------------------------
 |     DESCRIÇÃO     |       IP       |    MÉMORIA   |       PROCESSADOR     |   ESPAÇO EM DISCO |
@@ -35,6 +37,7 @@
 
 # Configuração de hardware switch
 
+*Tabela 5:* Definições de configuração de hardware do switch.
 ```
 -----------------------------------------------
 |       MARCA        |          PARTAS         |   
