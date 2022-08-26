@@ -7,7 +7,6 @@
 ### Login da VM ubuntu server
 
 * Usuário da VM: ``administrador``
-* Senha da VM: ``adminifal``
 
 ## 1) Ative ou crie uma interface no computador para comunicação entre o Host (PC) e a VM. 
 
