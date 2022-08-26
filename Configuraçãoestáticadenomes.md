@@ -7,7 +7,6 @@
 ### Login da VM ubuntu server
 
 * Usuário da VM: ``administrador``
-* Senha da VM: ``adminifal``
 
 ![WhatsApp Image 2022-08-12 at 15 00 11](https://user-images.githubusercontent.com/103062866/184416796-2bd177b6-6b34-4f15-8a0f-f4e5c34a8c8b.jpeg)
 
