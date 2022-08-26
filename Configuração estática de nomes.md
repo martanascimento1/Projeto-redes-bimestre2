@@ -23,14 +23,14 @@
 ```
 127.0.0.1 localhost
 127.0.1.1 VM2-PC4-julia
-192.168.24.1 grupo1-vm1-pc1 maria.grupo1-924.net    bel
-192.168.24.2 grupo1-vm2-pc1 izabel.grupo1-924.net   iza
-192.168.24.3 grupo1-vm1-pc2 marta.grupo1-924.net    crf
-192.168.24.4 grupo1-vm2-pc2 mirely.grupo1-924.net   srn
-192.168.24.5 grupo1-vm1-pc3 debora.grupo1-924.net   debs
-192.168.24.6 grupo1-vm2-pc3 nycolli.grupo1-924.net  nick
-192.168.24.7 grupo1-vm1-pc4 julia.grupo1-924.net    juju
-192.168.24.8 grupo1-vm2-pc4 victoria.grupo1-924.net vic
+192.168.24.1 grupo1-vm1-pc1 maria.grupo1-924.ifalara.net    bel
+192.168.24.2 grupo1-vm2-pc1 izabel.grupo1-924.ifalara.net   iza
+192.168.24.3 grupo1-vm1-pc2 marta.grupo1-924.ifalara.net    crf
+192.168.24.4 grupo1-vm2-pc2 mirely.grupo1-924.ifalara.net   srn
+192.168.24.5 grupo1-vm1-pc3 debora.grupo1-924.ifalara.net   debs
+192.168.24.6 grupo1-vm2-pc3 nycolli.grupo1-924.ifalara.net  nick
+192.168.24.7 grupo1-vm1-pc4 julia.grupo1-924.ifalara.net    juju
+192.168.24.8 grupo1-vm2-pc4 victoria.grupo1-924.ifalara.net vic
 ```
 ![WhatsApp Image 2022-08-11 at 16 06 24](https://user-images.githubusercontent.com/103062866/184416907-77860b2e-cfbf-4131-982b-b185a5c29d4d.jpeg)
 
@@ -51,14 +51,14 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 ----------------------------------------------------------------------------------------------------
 |     DESCRICAO     |       IP        |    hostname    |           FQDN            |     aliase     |             
 ----------------------------------------------------------------------------------------------------
-| VM1-PC1-izabel    | 192.168.24.1   |  grupo1-vm1-pc1 |  maria.grupo1-924.net     |     mabel      |
-| VM2-PC1-izabel    | 192.168.24.2   |  grupo1-vm2-pc1 |  izabel.grupo1-924.net    |     iza        |
-| VM1-PC2-marta     | 192.168.24.3   |  grupo1-vm1-pc2 |  marta.grupo1-924.net     |     crf        |
-| VM2-PC2-marta     | 192.168.24.4   |  grupo1-vm2-pc2 |  mirely.grupo1-924.net    |     srn        |
-| VM1-PC3-debora    | 192.168.24.5   |  grupo1-vm1-pc3 |  debora.grupo1-924.net    |     debs       |
-| VM2-PC3-debora    | 192.168.24.6   |  grupo1-vm2-pc3 |  nycolli.grupo1-924.net   |     niky       |
-| VM1-PC4-julia     | 192.168.24.7   |  grupo1-vm1-pc4 |  julia.grupo1-924.net     |     juju       |
-| VM2-PC4-julia     | 192.168.24.8   |  grupo1-vm2-pc4 |  victoria.grupo1-924.net  |     vic        |
+| VM1-PC1-izabel    | 192.168.24.1   |  grupo1-vm1-pc1 |  maria.grupo1-924.ifalara.net     |  mabel |
+| VM2-PC1-izabel    | 192.168.24.2   |  grupo1-vm2-pc1 |  izabel.grupo1-924.ifalara.net    |  iza   |
+| VM1-PC2-marta     | 192.168.24.3   |  grupo1-vm1-pc2 |  marta.grupo1-924.ifalara.net     |  rf    |
+| VM2-PC2-marta     | 192.168.24.4   |  grupo1-vm2-pc2 |  mirely.grupo1-924.ifalara.net    |  srn   |
+| VM1-PC3-debora    | 192.168.24.5   |  grupo1-vm1-pc3 |  debora.grupo1-924.ifalara.net    |  debs  |
+| VM2-PC3-debora    | 192.168.24.6   |  grupo1-vm2-pc3 |  nycolli.grupo1-924.ifalara.net   |  niky  |
+| VM1-PC4-julia     | 192.168.24.7   |  grupo1-vm1-pc4 |  julia.grupo1-924.ifalara.net     |  juju  |
+| VM2-PC4-julia     | 192.168.24.8   |  grupo1-vm2-pc4 |  victoria.grupo1-924.ifalara.net  |  vic   |
 ----------------------------------------------------------------------------------------------------
 ```
 * Em seguida, é preciso editar os arquivo /etc/hosts conforme as definições da Tabela de Endereços e Nomes (Tabela 1) e digitar o próximo comando. 
@@ -73,14 +73,14 @@ sudo nano /etc/hosts
 ```
 127.0.0.1 localhost
 127.0.1.1 VM1-PC4-julia
-192.168.24.1 grupo1-vm1-pc1 maria.grupo1-924.net    bel
-192.168.24.2 grupo1-vm2-pc1 izabel.grupo1-924.net   iza
-192.168.24.3 grupo1-vm1-pc2 marta.grupo1-924.net    crf
-192.168.24.4 grupo1-vm2-pc2 mirely.grupo1-924.net   srn
-192.168.24.5 grupo1-vm1-pc3 debora.grupo1-924.net   debs
-192.168.24.6 grupo1-vm2-pc3 nycolli.grupo1-924.net  nick
-192.168.24.7 grupo1-vm1-pc4 julia.grupo1-924.net    juju
-192.168.24.8 grupo1-vm2-pc4 victoria.grupo1-924.net vic
+192.168.24.1 grupo1-vm1-pc1 maria.grupo1-924.ifalara.net    bel
+192.168.24.2 grupo1-vm2-pc1 izabel.grupo1-924.ifalara.net   iza
+192.168.24.3 grupo1-vm1-pc2 marta.grupo1-924.ifalara.net    crf
+192.168.24.4 grupo1-vm2-pc2 mirely.grupo1-924.ifalara.net   srn
+192.168.24.5 grupo1-vm1-pc3 debora.grupo1-924.ifalara.net   debs
+192.168.24.6 grupo1-vm2-pc3 nycolli.grupo1-924.ifalara.net  nick
+192.168.24.7 grupo1-vm1-pc4 julia.grupo1-924.ifalara.net    juju
+192.168.24.8 grupo1-vm2-pc4 victoria.grupo1-924.ifalara.net vic
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
