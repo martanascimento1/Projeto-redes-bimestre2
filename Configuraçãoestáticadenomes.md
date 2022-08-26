@@ -112,4 +112,4 @@ Acessar uma VM a partir do terminal do PC e:
 ![WhatsApp Image 2022-08-11 at 16 13 47](https://user-images.githubusercontent.com/103062866/184417104-28ece24a-76b9-4f26-8757-b7ef463f407b.jpeg)
 
 
-[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/372cbc216c101e3220fb88247424560dca27a668/README.md)
+[Navegar de volta para roteiro](https://github.com/martanascimento1/Projeto-redes-bimestre2/blob/main/README.md)
